@@ -1,0 +1,258 @@
+{
+  "mostrarPendencias": false,
+  "indexavel": false,
+  "seo": {
+    "urlBase": "https://novo.chemipharma.com.br/",
+    "idioma": "pt-BR",
+    "sufixoTitulo": " | Chemi Pharma"
+  },
+  "empresa": {
+    "nome": "Chemi Pharma",
+    "nomeAlternativo": "Hades Química",
+    "emailOrcamento": "contato@chemipharma.com.br",
+    "emailRodape": "hadesquimica@chemipharma.com.br",
+    "whatsapp": {
+      "numero": "5561984241187",
+      "exibicao": "(61) 98424-1187",
+      "mensagem": "Olá, gostaria de um orçamento."
+    },
+    "pabx": {
+      "exibicao": "(61) 98466-5971",
+      "pendencia": "TODO: CONFIRMAR – o site antigo exibia 'PABX (61) 98466-5971'; divergência com o WhatsApp (61) 98424-1187."
+    },
+    "endereco": {
+      "curto": "Núcleo Rural Rio Preto, Chácara nº 23 – Planaltina, Brasília-DF",
+      "logradouro": "Núcleo Rural Rio Preto, Chácara nº 23",
+      "cidade": "Planaltina, Brasília",
+      "uf": "DF",
+      "pendencia": "TODO: CONFIRMAR a forma correta do endereço (páginas antigas traziam também '/Núcleo Rural Santos Dumont') e o CEP."
+    },
+    "avisoLegal": "Comercialização sujeita às restrições legais aplicáveis a produtos químicos controlados.",
+    "avisoLegalPendencia": "TODO: validar com jurídico/cliente"
+  },
+  "menu": [
+    { "rotulo": "Home", "slug": "" },
+    { "rotulo": "Quem Somos", "slug": "quienes-somos" },
+    { "rotulo": "Lista de Produtos e preços", "slug": "lista-de-produtos-e-precos" },
+    { "rotulo": "Nossos serviços", "slug": "nossos-servicos", "submenu": true },
+    { "rotulo": "Parcerias", "slug": "parcerias" },
+    { "rotulo": "Contato", "slug": "contacto" }
+  ],
+  "rodape": {
+    "links": [
+      { "rotulo": "Home", "slug": "" },
+      { "rotulo": "Quem Somos", "slug": "quienes-somos" },
+      { "rotulo": "Nossos serviços", "slug": "nossos-servicos" },
+      { "rotulo": "Parcerias", "slug": "parcerias" },
+      { "rotulo": "Contato", "slug": "contacto" },
+      { "rotulo": "Lista de Produtos e Preços", "slug": "lista-de-produtos-e-precos" }
+    ]
+  },
+  "ui": {
+    "cta": "FAÇA SEU ORÇAMENTO",
+    "saibaMais": "Saiba mais",
+    "outrosServicos": "Outros serviços",
+    "pular": "Pular para o conteúdo",
+    "logoAlt": "Espaço reservado para o logotipo da Chemi Pharma",
+    "whatsappFlutuante": "Falar pelo WhatsApp"
+  },
+  "home": {
+    "slug": "",
+    "titulo": "Produtos químicos e farmacêuticos",
+    "seoTitulo": "Chemi Pharma | Produtos químicos e farmacêuticos",
+    "seoDescricao": "Reagentes, matérias-primas e princípios ativos químico-farmacêuticos com qualidade garantida, preço justo e rapidez na entrega. Peça seu orçamento.",
+    "texto1": "Garantia de qualidade com preço justo e rapidez na entrega de seu produto. Atendemos toda a linha de reagentes laboratoriais e matérias primas que sua empresa, laboratório, farmácia de manipulação ou empreendimento pessoal necessitar, ainda que impossível adquiri-lo no Brasil.",
+    "placeholder": { "largura": 1133, "altura": 657, "alt": "Espaço reservado para imagem principal (1133 × 657)" },
+    "produtos": {
+      "titulo": "O que atendemos",
+      "texto": "Trabalhamos com princípios ativos de fármacos, não com medicamentos prontos e registrados na ANVISA, além de químicos aromáticos empregados como essências em perfumaria, agroquímicos, fertilizantes, produtos veterinários, produtos para piscina, higiene e limpeza, tintas e vernizes, enfim, todos os produtos químicos disponíveis no mercado interno e internacional que possuam um número CAS (Chemical Abstract Service).",
+      "categorias": [
+        "Princípios ativos de fármacos",
+        "Químicos aromáticos para perfumaria",
+        "Agroquímicos",
+        "Fertilizantes",
+        "Produtos veterinários",
+        "Produtos para piscina",
+        "Higiene e limpeza",
+        "Tintas e vernizes"
+      ]
+    },
+    "servicos": { "titulo": "Nossos serviços" },
+    "diferenciais": {
+      "titulo": "Diferenciais",
+      "texto": "Trabalhamos com as melhores práticas de análise qualitativa e quantitativa do mercado. Tudo para garantir Laudos Técnicos confiáveis acerca dos produtos químicos comercializados por nossa empresa, com o emprego de modernas técnicas de espectrometria.",
+      "itens": [
+        { "titulo": "Qualidade garantida", "icone": "escudo" },
+        { "titulo": "Preço justo", "icone": "etiqueta" },
+        { "titulo": "Rapidez na entrega", "icone": "relogio" },
+        { "titulo": "Laudos técnicos confiáveis", "icone": "documento" }
+      ]
+    },
+    "contatoRapido": {
+      "titulo": "Faça seu orçamento",
+      "texto": "Fale com a Chemi Pharma pelo WhatsApp ou por e-mail."
+    },
+    "pendencias": [
+      "TODO: CONFIRMAR COM O CLIENTE – a Home original pode ter outros blocos de conteúdo não coletados."
+    ]
+  },
+  "servicos": [
+    {
+      "slug": "importacao",
+      "menu": "Importação",
+      "titulo": "Importação",
+      "icone": "globo",
+      "resumo": "Importamos reagentes e matérias-primas de química fina, mesmo quando não há oferta no mercado nacional.",
+      "seoTitulo": "Importação de reagentes e insumos | Chemi Pharma",
+      "seoDescricao": "Importamos reagentes e matérias-primas de química fina, mesmo sem oferta no mercado nacional. Informe o número CAS e peça seu orçamento.",
+      "paragrafos": [
+        "Atendemos toda a linha de reagentes laboratoriais e matérias primas de química fina, ainda que seja impossível adquiri-los no mercado nacional.",
+        "Necessitamos apenas do CAS (Chemical Abstract Service) para que possamos acionar nossos contatos internacionais, a fim de adquirir com rapidez e preços competitivos o produto químico ou princípio ativo químico-farmacêutico que você necessita, com qualidade garantida."
+      ],
+      "placeholder": { "largura": 504, "altura": 282, "alt": "Espaço reservado para imagem de Importação (504 × 282)" }
+    },
+    {
+      "slug": "comercio",
+      "menu": "Comércio",
+      "titulo": "Comércio",
+      "icone": "caixa",
+      "resumo": "Toda a linha de produtos químicos e matérias-primas químico-farmacêuticas, com cotação sob consulta.",
+      "seoTitulo": "Comércio de produtos químicos | Chemi Pharma",
+      "seoDescricao": "Comercializamos toda a linha de produtos químicos e matérias-primas químico-farmacêuticas, com cotação sob consulta. Peça seu orçamento.",
+      "paragrafos": [
+        "Comercializamos toda linha de produtos químicos e matérias primas químico-farmacêuticas, além de qualquer reagente necessário à sua empresa, laboratório, farmácia de manipulação ou empreendimento pessoal, observadas as restrições legais referentes aos produtos químicos controlados.",
+        "Não oferecemos uma lista de produtos e preços pré-definida porque trabalhamos com TODOS os produtos químicos disponíveis no mercado internacional, os quais sofrem variações diárias de preços em função do dólar americano. Entre em contato e faça uma cotação em um prazo máximo de 48 horas."
+      ],
+      "placeholder": { "largura": 255, "altura": 256, "alt": "Espaço reservado para imagem de Comércio (255 × 256)" }
+    },
+    {
+      "slug": "reembalagem",
+      "menu": "Reembalagem",
+      "titulo": "Reembalagem",
+      "icone": "frasco",
+      "resumo": "Reembalagem de 1 g/mL a 1 kg/L, em frascos seguros e com rótulo completo.",
+      "seoTitulo": "Reembalagem de produtos químicos | Chemi Pharma",
+      "seoDescricao": "Reembalagem de 1 g/mL a 1 kg/L, em frascos seguros e com rótulo completo. Peça seu orçamento à Chemi Pharma.",
+      "destaque": "1 g/mL → 1 kg/L",
+      "paragrafos": [
+        "Reembalamos seus produtos para comercializá-los na quantidade que você necessita, de 1 g/mL até 1 kg/L, em frascos químicos de PEAD pretos selados com batoque e/ou lacre termo-magnético de alumínio/PEAD ou frascos de vidro âmbar com tampa e batoque, o que propicia segurança e durabilidade no armazenamento e estocagem.",
+        "Todos os produtos químicos reembalados possuem o rótulo de nossa empresa contendo:"
+      ],
+      "lista": [
+        "nome IUPAC do produto químico",
+        "fórmula plana",
+        "número CAS",
+        "quantidade",
+        "prazo de validade",
+        "advertências legais"
+      ],
+      "placeholder": { "largura": 463, "altura": 338, "alt": "Espaço reservado para imagem de Reembalagem (463 × 338)" }
+    },
+    {
+      "slug": "revenda",
+      "menu": "Revenda",
+      "titulo": "Revenda",
+      "icone": "etiqueta",
+      "resumo": "Preços competitivos e prazos que superam a concorrência.",
+      "seoTitulo": "Revenda de produtos químicos | Chemi Pharma",
+      "seoDescricao": "Revenda de produtos químicos e princípios ativos químico-farmacêuticos com preços competitivos e prazos que superam a concorrência.",
+      "paragrafos": [
+        "Revendemos produtos químicos e princípios ativos químico-farmacêuticos a preços competitivos e com prazos que superam a concorrência.",
+        "Temos ciência de que nossos clientes não podem ficar esperando eternamente por prazos exorbitantes para a chegada de seus reagentes, afinal, tempo é dinheiro."
+      ],
+      "placeholder": { "largura": 342, "altura": 342, "alt": "Espaço reservado para imagem de Revenda (342 × 342)" }
+    },
+    {
+      "slug": "sintese",
+      "menu": "Síntese",
+      "titulo": "Síntese de Produtos Químicos",
+      "icone": "molecula",
+      "resumo": "Síntese in loco do produto que você precisa, com qualidade controlada por técnicas de espectrometria.",
+      "seoTitulo": "Síntese de produtos químicos | Chemi Pharma",
+      "seoDescricao": "Síntese in loco do produto que você precisa, com qualidade controlada por técnicas de espectrometria. Peça seu orçamento.",
+      "paragrafos": [
+        "Somos empresa com sede física, Laboratório de Química Fina e Farmacêutica. Sintetizamos, se necessário, in loco, o produto químico que você necessita, para melhor custo-benefício de sua aquisição, com qualidade controlada pelas melhores práticas de análise química qualitativa e quantitativa, com base em modernas técnicas de espectrometria. Respeitadas as restrições legais relativas a produtos controlados."
+      ],
+      "placeholder": { "largura": 444, "altura": 332, "alt": "Espaço reservado para imagem de Síntese (444 × 332)" }
+    },
+    {
+      "slug": "fracionamento",
+      "menu": "Fracionamento",
+      "titulo": "Fracionamento",
+      "icone": "balanca",
+      "resumo": "Fracionamento em macro e micro escala, com embalagem e rotulagem profissionais.",
+      "seoTitulo": "Fracionamento de produtos químicos | Chemi Pharma",
+      "seoDescricao": "Fracionamento em macro e micro escala, com embalagem e rotulagem profissionais. Peça seu orçamento à Chemi Pharma.",
+      "paragrafos": [
+        "Fracionamos seu produto na quantidade que você necessita.",
+        "Trabalhamos com macro e micro escala, não temos restrições.",
+        "Tudo com embalagem e rotulagem profissionais."
+      ],
+      "placeholder": { "largura": 464, "altura": 343, "alt": "Espaço reservado para imagem de Fracionamento (464 × 343)" }
+    }
+  ],
+  "paginas": {
+    "nossos-servicos": {
+      "titulo": "Nossos serviços",
+      "seoTitulo": "Nossos serviços | Chemi Pharma",
+      "seoDescricao": "Importação, comércio, reembalagem, revenda, síntese e fracionamento de produtos químicos e princípios ativos químico-farmacêuticos."
+    },
+    "lista-de-produtos-e-precos": {
+      "titulo": "Lista de Produtos e preços",
+      "seoTitulo": "Lista de produtos e preços | Chemi Pharma",
+      "seoDescricao": "Não há lista fixa: os preços variam com o dólar. Busque por nome ou número CAS e peça sua cotação à Chemi Pharma.",
+      "paragrafos": [
+        "Não oferecemos uma lista de produtos e preços pré-definida porque trabalhamos com TODOS os produtos químicos disponíveis no mercado internacional, os quais sofrem variações diárias de preços em função do dólar americano. Entre em contato e faça uma cotação em um prazo máximo de 48 horas."
+      ],
+      "busca": {
+        "rotulo": "Nome do produto ou número CAS",
+        "botao": "Solicitar cotação",
+        "placeholder": "Ex.: nome do produto ou CAS"
+      }
+    },
+    "contacto": {
+      "titulo": "Contato",
+      "seoTitulo": "Contato e orçamento | Chemi Pharma",
+      "seoDescricao": "Peça seu orçamento de produtos químicos pelo WhatsApp (61) 98424-1187 ou por e-mail. Informe o produto ou o número CAS.",
+      "formulario": {
+        "titulo": "Solicite seu orçamento",
+        "botaoWhatsapp": "Enviar por WhatsApp",
+        "botaoEmail": "Enviar por e-mail",
+        "campos": [
+          { "id": "nome", "rotulo": "Nome", "tipo": "text", "obrigatorio": true, "autocomplete": "name" },
+          { "id": "empresa", "rotulo": "Empresa", "tipo": "text", "obrigatorio": false, "autocomplete": "organization" },
+          { "id": "email", "rotulo": "E-mail", "tipo": "email", "obrigatorio": true, "autocomplete": "email" },
+          { "id": "telefone", "rotulo": "Telefone/WhatsApp", "tipo": "tel", "obrigatorio": false, "autocomplete": "tel" },
+          { "id": "produto", "rotulo": "Produto e/ou número CAS", "tipo": "text", "obrigatorio": true, "autocomplete": "off" },
+          { "id": "quantidade", "rotulo": "Quantidade", "tipo": "text", "obrigatorio": false, "autocomplete": "off" },
+          { "id": "mensagem", "rotulo": "Mensagem", "tipo": "textarea", "obrigatorio": false, "autocomplete": "off" }
+        ]
+      },
+      "pendencias": [
+        "TODO: política de privacidade/LGPD — validar com o cliente"
+      ]
+    },
+    "quienes-somos": {
+      "titulo": "Quem Somos",
+      "seoTitulo": "Quem somos | Chemi Pharma",
+      "seoDescricao": "Conheça a Chemi Pharma, laboratório de química fina e farmacêutica em Brasília-DF.",
+      "paragrafos": ["TODO: CONFIRMAR COM O CLIENTE"],
+      "placeholder": { "largura": 504, "altura": 282, "alt": "Espaço reservado para imagem (504 × 282)" }
+    },
+    "parcerias": {
+      "titulo": "Parcerias",
+      "seoTitulo": "Parcerias | Chemi Pharma",
+      "seoDescricao": "Parcerias da Chemi Pharma, laboratório de química fina e farmacêutica em Brasília-DF.",
+      "paragrafos": ["TODO: CONFIRMAR COM O CLIENTE"],
+      "placeholder": { "largura": 504, "altura": 282, "alt": "Espaço reservado para imagem (504 × 282)" }
+    },
+    "em-breve": "Conteúdo em breve.",
+    "404": {
+      "titulo": "Página não encontrada",
+      "seoTitulo": "Página não encontrada | Chemi Pharma",
+      "seoDescricao": "A página que você procurou não foi encontrada.",
+      "texto": "Verifique o endereço ou volte para a página inicial.",
+      "botao": "Ir para a Home"
+    }
+  }
+}

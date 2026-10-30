@@ -1,0 +1,18 @@
+    <section class="hero hero--interna">
+      <div class="container">
+        <h1>{{titulo}}</h1>
+{{{paragrafos}}}
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <form class="busca" action="{{acao}}" method="get" role="search">
+          <label for="busca-produto">{{rotulo}}</label>
+          <div class="busca__linha">
+            <input id="busca-produto" name="produto" type="search" placeholder="{{placeholder}}" autocomplete="off" required>
+            <button class="btn btn--primario" type="submit">{{botao}}</button>
+          </div>
+        </form>
+      </div>
+    </section>

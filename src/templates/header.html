@@ -1,0 +1,17 @@
+  <header class="cabecalho">
+    <div class="container cabecalho__interno">
+      <a class="logo" href="{{raiz}}">
+        <span class="ph ph--logo" role="img" aria-label="{{logoAlt}}" style="--w:180;--h:60">180 × 60</span>
+        <span class="logo__texto">{{nomeEmpresa}}</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu">
+        <span class="nav-toggle__barras" aria-hidden="true"></span>
+      </button>
+      <nav id="menu-principal" class="nav" aria-label="Principal">
+        <ul class="nav__lista">
+{{{menu}}}
+        </ul>
+      </nav>
+      {{{cta}}}
+    </div>
+  </header>

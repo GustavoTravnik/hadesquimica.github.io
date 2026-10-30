@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{idioma}}" class="sem-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{titulo}}</title>
+  <meta name="description" content="{{descricao}}">
+  {{{robots}}}
+  {{{canonical}}}
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="{{nomeEmpresa}}">
+  <meta property="og:title" content="{{titulo}}">
+  <meta property="og:description" content="{{descricao}}">
+  {{{ogUrl}}}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{titulo}}">
+  <meta name="twitter:description" content="{{descricao}}">
+  <link rel="icon" href="{{raiz}}favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{raiz}}assets/css/style.css">
+  <script>document.documentElement.className = 'js';</script>
+  {{{jsonld}}}
+</head>
+<body class="{{classeCorpo}}">
+  <a class="pular" href="#conteudo">{{pular}}</a>
+{{{cabecalho}}}
+  <main id="conteudo" tabindex="-1">
+{{{conteudo}}}
+  </main>
+{{{rodape}}}
+  <a class="whatsapp-flutuante" href="{{whatsappUrl}}" target="_blank" rel="noopener" aria-label="{{whatsappRotulo}}">
+    {{{iconeWhatsapp}}}
+  </a>
+  <script src="{{raiz}}assets/js/main.js" defer></script>
+</body>
+</html>

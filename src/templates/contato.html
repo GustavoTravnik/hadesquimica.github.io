@@ -1,0 +1,32 @@
+    <section class="hero hero--interna">
+      <div class="container">
+        <h1>{{titulo}}</h1>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container grade">
+        <div class="col col-md-5">
+          <h2>Fale conosco</h2>
+          <ul class="contatos">
+            <li>{{{iconeWhatsapp}}} <a href="{{whatsappUrl}}" target="_blank" rel="noopener">WhatsApp {{whatsappExibicao}}</a></li>
+            <li>{{{iconeEmail}}} <a href="mailto:{{email}}">{{email}}</a></li>
+            <li>{{{iconeLocal}}} <span>{{endereco}}</span></li>
+          </ul>
+{{{pendenciasContato}}}
+        </div>
+        <div class="col col-md-7">
+          <h2>{{formTitulo}}</h2>
+          <!-- Sem JavaScript, o envio cai no mailto padrão do navegador. -->
+          <form id="form-orcamento" class="form" action="mailto:{{email}}?subject=Pedido%20de%20or%C3%A7amento" method="post" enctype="text/plain" novalidate data-email="{{email}}" data-whatsapp="{{whatsappNumero}}" data-mensagem="{{whatsappMensagem}}">
+{{{campos}}}
+            <p id="form-status" class="form__status" aria-live="polite"></p>
+            <div class="botoes">
+              <button class="btn btn--primario js-somente" type="button" id="enviar-whatsapp">{{botaoWhatsapp}}</button>
+              <button class="btn btn--secundario" type="submit" id="enviar-email">{{botaoEmail}}</button>
+            </div>
+          </form>
+{{{pendenciasForm}}}
+        </div>
+      </div>
+    </section>

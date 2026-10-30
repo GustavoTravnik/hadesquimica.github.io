@@ -1,0 +1,54 @@
+    <section class="hero">
+      <div class="container grade hero__grade">
+        <div class="col col-md-7 hero__texto">
+          <h1>{{titulo}}</h1>
+          <p class="lead">{{texto1}}</p>
+          <p>{{{cta}}}</p>
+        </div>
+        <div class="col col-md-5 hero__imagem">
+{{{imagem}}}
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos" class="secao">
+      <div class="container">
+        <h2>{{produtosTitulo}}</h2>
+        <p class="texto-largo">{{produtosTexto}}</p>
+        <ul class="categorias">
+{{{categorias}}}
+        </ul>
+      </div>
+    </section>
+
+    <section id="servicos" class="secao secao--suave">
+      <div class="container">
+        <h2>{{servicosTitulo}}</h2>
+        <ul class="cards">
+{{{cards}}}
+        </ul>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="secao">
+      <div class="container">
+        <h2>{{diferenciaisTitulo}}</h2>
+        <p class="texto-largo">{{diferenciaisTexto}}</p>
+        <ul class="diferenciais">
+{{{diferenciais}}}
+        </ul>
+      </div>
+    </section>
+
+    <section id="contato-rapido" class="secao secao--escura">
+      <div class="container contato-rapido">
+        <h2>{{contatoTitulo}}</h2>
+        <p>{{contatoTexto}}</p>
+        <div class="botoes">
+          <a class="btn btn--claro" href="{{whatsappUrl}}" target="_blank" rel="noopener">{{{iconeWhatsapp}}} WhatsApp</a>
+          <a class="btn btn--claro" href="mailto:{{email}}">{{{iconeEmail}}} {{email}}</a>
+        </div>
+        <p class="contato-rapido__cta">{{{cta}}}</p>
+{{{pendencias}}}
+      </div>
+    </section>

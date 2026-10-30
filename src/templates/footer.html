@@ -1,0 +1,28 @@
+  <footer class="rodape">
+    <div class="container">
+      <div class="grade rodape__grade">
+        <div class="col col-md-4">
+          <p class="rodape__marca">{{nomeEmpresa}}</p>
+          <p>{{enderecoCurto}}</p>
+          {{{pendenciaEndereco}}}
+        </div>
+        <nav class="col col-md-4" aria-label="Rodapé">
+          <h2 class="rodape__titulo">Navegação</h2>
+          <ul class="rodape__lista">
+{{{links}}}
+          </ul>
+        </nav>
+        <div class="col col-md-4">
+          <h2 class="rodape__titulo">Contato</h2>
+          <ul class="rodape__lista">
+            <li><a href="mailto:{{emailRodape}}">{{emailRodape}}</a></li>
+            <li><a href="{{whatsappUrl}}" target="_blank" rel="noopener">WhatsApp {{whatsappExibicao}}</a></li>
+          </ul>
+          {{{pendenciaPabx}}}
+        </div>
+      </div>
+      <p class="rodape__aviso">{{avisoLegal}}</p>
+      {{{pendenciaAviso}}}
+      <p class="rodape__copy">© <span data-ano>{{ano}}</span> {{nomeEmpresa}}</p>
+    </div>
+  </footer>
