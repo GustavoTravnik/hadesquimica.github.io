@@ -1,0 +1,13 @@
+{
+  "name": "chemipharma-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site estático da Chemi Pharma (GitHub Pages)",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
