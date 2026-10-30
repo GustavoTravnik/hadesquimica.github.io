@@ -30,6 +30,13 @@ npm run dev     # http://localhost:8080/  e  http://localhost:8080/hadesquimica.
 
 Para editar textos: altere `src/content.json`, rode `npm run build` e `npm run check`, e faça commit dos arquivos gerados.
 
+## Como atualizar a lista de preços
+
+1. Substituir `src/data/produtos-raw.txt` pela nova relação (mesmo formato: `NOME ... EMBALAGEM***R$ PREÇO`) e atualizar `atualizadoEm` e `dataExibicao` em `src/content.json`.
+2. Rodar `node scripts/normalizar-produtos.mjs` (gera os arquivos normalizados em `src/data/produtos.json`).
+3. `npm run build` → `npm run check` (confere contagens, sanidade e integridade dos 314 preços) → revisar o relatório gerado em `docs/relatorio-produtos.md`.
+4. Commit e publicação conforme o fluxo do projeto.
+
 ### Flags do `content.json`
 
 | Flag | Padrão | Efeito |

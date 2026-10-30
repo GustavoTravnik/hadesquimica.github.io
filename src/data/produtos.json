@@ -1,0 +1,4070 @@
+{
+  "atualizadoEm": "2026-08-30",
+  "moeda": "BRL",
+  "itens": [
+    {
+      "id": "acetaldeido-aldeido-acetico-p-a",
+      "nome": "Acetaldeído (aldeído acético)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 129
+        }
+      ],
+      "original": "ACETALDEIDO (ALDEIDO ACETICO) P.A 50ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "acetamida-p-a",
+      "nome": "Acetamida",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "ACETAMIDA P.A 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "acetato-de-amonio-p-a",
+      "nome": "Acetato de amônio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "ACETATO DE AMONIO P.A 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acetato-de-butila-p-a",
+      "nome": "Acetato de butila",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 59
+        }
+      ],
+      "original": "ACETATO DE BUTILA P.A 200ml***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "acetato-de-calcio-p-a",
+      "nome": "Acetato de cálcio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 69
+        }
+      ],
+      "original": "ACETATO DE CALCIO P.A 250grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "acetato-de-chumbo-neutro-3h2o-pa",
+      "nome": "Acetato de chumbo neutro (3H2O)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "ACETATO DE CHUMBO NEUTRO (3H2O) PA 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acetato-de-cobre-ii-pa-acs-1-h2o",
+      "nome": "Acetato de cobre II PA ACS(1 H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "ACETATO DE COBRE II PA ACS(1 H2O) 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acetato-de-etila-p-a-acs",
+      "nome": "Acetato de etila",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 129
+        }
+      ],
+      "original": "ACETATO DE ETILA P.A ACS 1 Litro***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "acetato-de-niquel-ii-p-a-4-h2o",
+      "nome": "Acetato de níquel II P.A (4 H2O)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "ACETATO DE NIQUEL II P.A (4 H2O) 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acetato-de-sodio-anidro-pa-acs",
+      "nome": "Acetato de sódio anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "ACETATO DE SODIO ANIDRO PA ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "acetoacetato-de-etila-p-a",
+      "nome": "Acetoacetato de etila",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 mL",
+          "preco": 119
+        }
+      ],
+      "original": "ACETOACETATO DE ETILA P.A 250ml***R$ 119,00",
+      "controlado": null
+    },
+    {
+      "id": "acetofenona-ps",
+      "nome": "Acetofenona",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 119
+        }
+      ],
+      "original": "ACETOFENONA PS 100ml***R$ 119,00",
+      "controlado": null
+    },
+    {
+      "id": "acetona-p-a-acs",
+      "nome": "Acetona",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 129
+        }
+      ],
+      "original": "ACETONA P.A ACS 1 Litro***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "acetonitrila-p-a-acs",
+      "nome": "Acetonitrila",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 199
+        }
+      ],
+      "original": "ACETONITRILA P.A ACS 1 Litro***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-acetico-glacial-na-concentracao-de-30",
+      "nome": "Ácido acético glacial na concentração de 30%",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 99
+        }
+      ],
+      "original": "ACIDO ACETICO GLACIAL NA CONCENTRAÇÃO DE 30% 01 LITRO*** R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-acetico-glacial-p-a-acs-99-8",
+      "nome": "Ácido acético glacial P.A ACS 99,8%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 129
+        }
+      ],
+      "original": "ACIDO ACETICO GLACIAL P.A ACS 99,8% 500ML*** $129,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-acrilico-p-a",
+      "nome": "Ácido acrílico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ACIDO ACRILICO P.A 200ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-2-amino-benzoico-antranilico-puro",
+      "nome": "Ácido 2-amino benzoico (antranílico)",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 249
+        }
+      ],
+      "original": "ACIDO 2-AMINO BENZOICO (ANTRANILICO) puro 50grs*** R$249,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-l-ascorbico-pa-vitamina-c",
+      "nome": "Ácido l(+) ascórbico PA (vitamina c)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "ACIDO L(+) ASCORBICO PA (VITAMINA C) 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-benzoico-p-a",
+      "nome": "Ácido benzoico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 129
+        }
+      ],
+      "original": "ACIDO BENZOICO P.A 250grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-borico-p-a-acs",
+      "nome": "Ácido bórico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 89
+        }
+      ],
+      "original": "ACIDO BORICO P.A ACS 250grs***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-bromidrico-48-pa-acs",
+      "nome": "Ácido bromídrico 48%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 249
+        }
+      ],
+      "original": "ACIDO BROMIDRICO 48% PA ACS 500ml***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-citrico-p-a-acs",
+      "nome": "Ácido cítrico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 79
+        }
+      ],
+      "original": "ACIDO CITRICO P.A ACS 500grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-cloridrico-grau-tecnico-30-33",
+      "nome": "Ácido clorídrico grau técnico 30-33%",
+      "grau": "Grau técnico",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ACIDO CLORIDRICO GRAU TECNICO 30-33% 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-cloridrico-p-a-acs-37-5",
+      "nome": "Ácido clorídrico P.A ACS 37,5%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 119
+        }
+      ],
+      "original": "ACIDO CLORIDRICO P.A ACS 37,5% 500ml***    R$119,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-cloroacetico-p-a-acs",
+      "nome": "Ácido cloroacético",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 99
+        }
+      ],
+      "original": "ACIDO CLOROACETICO P.A ACS 500grs***R$99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-estearico-p-a",
+      "nome": "Ácido esteárico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "ACIDO ESTEARICO P.A 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-formico-85-pa-acs",
+      "nome": "Ácido fórmico 85%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 129
+        }
+      ],
+      "original": "ACIDO FORMICO 85% PA ACS 500ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-fosforico-85-pa-acs",
+      "nome": "Ácido fosfórico 85%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 79
+        }
+      ],
+      "original": "ACIDO FOSFORICO 85% PA ACS 500ml***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-gama-aminobutirico-grau-usp",
+      "nome": "Ácido gama aminobutírico",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 59
+        }
+      ],
+      "original": "ACIDO GAMA AMINOBUTIRICO Grau USP 100grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-glioxilico-p-s",
+      "nome": "Ácido glioxílico",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ÁCIDO GLIOXILICO P.S 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-hipofosforoso-50-p-a",
+      "nome": "Ácido hipofosforoso 50%",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 199
+        }
+      ],
+      "original": "ÁCIDO HIPOFOSFOROSO 50% P.A 200ml***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-lactico-85-pa-acs",
+      "nome": "Ácido láctico 85%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ÁCIDO LACTICO 85% PA ACS 200ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-mandelico-p-a",
+      "nome": "Ácido mandélico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 199
+        }
+      ],
+      "original": "ACIDO MANDELICO P.A 100grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-nicotinico-p-a",
+      "nome": "Ácido nicotínico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 79
+        }
+      ],
+      "original": "ACIDO NICOTINICO P.A 100grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-nitrico-65-pa-acs",
+      "nome": "Ácido nítrico 65%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 119
+        }
+      ],
+      "original": "ACIDO NITRICO 65% PA ACS 500ml***R$ 119,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-nitrico-65-pa-acs-2",
+      "nome": "Ácido nítrico 65%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 238
+        }
+      ],
+      "original": "ACIDO NITRICO 65% PA ACS 01 LITRO***R$ 238,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-oxalico-cristal-2h2o-pa-acs",
+      "nome": "Ácido oxálico cristal (2H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 49
+        }
+      ],
+      "original": "ACIDO OXALICO CRISTAL (2H2O) PA ACS 100grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-para-aminobenzoico-p-a",
+      "nome": "Ácido para aminobenzoico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 79
+        }
+      ],
+      "original": "ACIDO PARA AMINOBENZOICO P.A 25grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-perclorico-70-pa-acs",
+      "nome": "Ácido perclórico 70%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 799
+        }
+      ],
+      "original": "ACIDO PERCLORICO 70% PA ACS 500ml***R$ 799,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-propionico-p-a-acs",
+      "nome": "Ácido propiônico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 79
+        }
+      ],
+      "original": "ACIDO PROPIONICO P.A ACS 200ml***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-salicilico-p-a-acs",
+      "nome": "Ácido salicílico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 g",
+          "preco": 99
+        }
+      ],
+      "original": "ACIDO SALICILICO P.A ACS 200grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-succinico-p-a",
+      "nome": "Ácido succínico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 79
+        }
+      ],
+      "original": "ACIDO SUCCINICO P.A 250 grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-sulfamico-p-a-acs",
+      "nome": "Ácido sulfâmico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "ACIDO SULFAMICO P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-sulfanilico-p-a",
+      "nome": "Ácido sulfanílico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 79
+        }
+      ],
+      "original": "ACIDO SULFANILICO P.A 250grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-sulfurico-p-uro-98",
+      "nome": "Ácido sulfúrico p.uro 98%",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ACIDO SULFURICO P.URO 98% 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-sulfurico-p-uro-98-2",
+      "nome": "Ácido sulfúrico p.uro 98%",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 179
+        }
+      ],
+      "original": "ACIDO SULFURICO P.URO 98% 01 LITRO***R$ 179,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-tartarico-l-p-a-acs",
+      "nome": "Ácido tartárico - l (+)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "ACIDO TARTARICO - L (+) P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-tioglicolico-ps",
+      "nome": "Ácido tioglicólico",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 79
+        }
+      ],
+      "original": "ACIDO TIOGLICOLICO PS 200ml***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-tricloroacetico-p-a-acs",
+      "nome": "Ácido tricloroacético",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "ÁCIDO TRICLOROACETICO P.A ACS 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "acido-trifluoracetico-p-a",
+      "nome": "Ácido trifluoracético",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 119
+        }
+      ],
+      "original": "ACIDO TRIFLUORACETICO P.A 50ml***R$ 119,00",
+      "controlado": null
+    },
+    {
+      "id": "adrenalina-epinefrina-cloridrato-grau-usp",
+      "nome": "Adrenalina (epinefrina cloridrato)",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "5 g",
+          "preco": 249
+        }
+      ],
+      "original": "ADRENALINA (EPINEFRINA CLORIDRATO) Grau USP 05grs***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "alanina-l-p-a",
+      "nome": "Alanina (l)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 69
+        }
+      ],
+      "original": "ALANINA (L) P.A 100grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "alaranjado-de-metila-1-solucao",
+      "nome": "Alaranjado de metila 1% solução",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALARANJADO DE METILA 1% SOLUÇÃO 200ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-benzilico-p-a-acs",
+      "nome": "Álcool benzílico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALCOOL BENZILICO P.A ACS 200ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-butilico-p-a-acs",
+      "nome": "Álcool butílico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALCOOL BUTILICO P.A ACS 200ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-cinamilico-p-a",
+      "nome": "Álcool cinamílico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 199
+        }
+      ],
+      "original": "ALCOOL CINAMILICO P.A 100ml***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-etilico-absoluto-99-5-p-a-acs",
+      "nome": "Álcool etílico absoluto 99,5%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 49
+        }
+      ],
+      "original": "ALCOOL ETILICO ABSOLUTO 99,5% P.A ACS 1 Litro***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-fenil-etilico-p-a",
+      "nome": "Álcool fenil etílico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 79
+        }
+      ],
+      "original": "ALCOOL FENIL ETILICO P.A 100ml***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-isoamilico-p-a-acs",
+      "nome": "Álcool isoamilico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 69
+        }
+      ],
+      "original": "ALCOOL ISOAMILICO P.A ACS 500ml***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-isobutilico-p-a-acs",
+      "nome": "Álcool isobutilico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALCOOL ISOBUTILICO P.A ACS 500ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-isopropilico-p-a-acs",
+      "nome": "Álcool isopropilico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALCOOL ISOPROPILICO P.A ACS 500ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-metilico-p-a-acs",
+      "nome": "Álcool metilico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALCOOL METILICO P.A ACS 500ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-n-propilico-p-a-acs",
+      "nome": "Álcool n propilico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALCOOL N PROPILICO P.A ACS 500ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-octilico-p-a",
+      "nome": "Álcool octílico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALCOOL OCTILICO P.A 500ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-polivinilico-ps",
+      "nome": "Álcool polivinilico",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 79
+        }
+      ],
+      "original": "ALCOOL POLIVINILICO PS 500grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-sec-butilico-p-a",
+      "nome": "Álcool sec butílico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 119
+        }
+      ],
+      "original": "ALCOOL SEC BUTILICO P.A 500ml***R$ 119,00",
+      "controlado": null
+    },
+    {
+      "id": "alcool-terc-butilico-p-a-acs",
+      "nome": "Álcool terc butílico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ALCOOL TERC BUTÍLICO P.A ACS 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "aldeido-anisico-anisaldeido-p-a",
+      "nome": "Aldeído anísico (anisaldeído)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 49
+        }
+      ],
+      "original": "ALDEIDO ANISICO (ANISALDEIDO) P.A 100ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "aldeido-benzoico-benzaldeido-p-a",
+      "nome": "Aldeído benzoico (benzaldeído)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 89
+        }
+      ],
+      "original": "ALDEÍDO BENZOICO (BENZALDEIDO) P.A 200ml***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "aluminio-em-po",
+      "nome": "Alumínio em po",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "ALUMINIO EM PO 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "amissulprida-grau-usp",
+      "nome": "Amissulprida",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 119
+        }
+      ],
+      "original": "AMISSULPRIDA grau USP 50grs***R$ 119,00",
+      "controlado": null
+    },
+    {
+      "id": "anidrido-acetico-p-a-acs",
+      "nome": "Anidrido acético",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ANIDRIDO ACETICO P.A ACS 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "anidrido-cromico-vi-pa",
+      "nome": "Anidrido crômico VI",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 79
+        }
+      ],
+      "original": "ANIDRIDO CROMICO VI PA 250grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "anidrido-ftalico-ps",
+      "nome": "Anidrido ftálico",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 79
+        }
+      ],
+      "original": "ANIDRIDO FTALICO PS 500grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "anilina-p-a-acs",
+      "nome": "Anilina",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ANILINA P.A ACS 200ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "antranilato-de-metila-p-a",
+      "nome": "Antranilato de metila",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ANTRANILATO DE METILA P.A 100ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "azida-de-sodio-p-a-acs",
+      "nome": "Azida de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 249
+        }
+      ],
+      "original": "AZIDA DE SODIO P.A ACS 100grs***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "azul-de-bromotimol-p-a-acs",
+      "nome": "Azul de bromotimol",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "5 g",
+          "preco": 49
+        }
+      ],
+      "original": "AZUL DE BROMOTIMOL P.A ACS 5grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "azul-de-metileno-p-a",
+      "nome": "Azul de metileno",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 79
+        }
+      ],
+      "original": "AZUL DE METILENO P.A 25grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "azul-de-toluidina-solucao-1-aquosa",
+      "nome": "Azul de toluidina solução 1% aquosa",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 59
+        }
+      ],
+      "original": "AZUL DE TOLUIDINA SOLUÇÃO 1% AQUOSA 500ml***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "benzeno-p-a-acs",
+      "nome": "Benzeno",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 99
+        }
+      ],
+      "original": "BENZENO P.A ACS 50ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "benzoato-de-sodio-p-a",
+      "nome": "Benzoato de sódio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "BENZOATO DE SODIO P.A 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "benzofenona-ps",
+      "nome": "Benzofenona",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 69
+        }
+      ],
+      "original": "BENZOFENONA PS  100ml***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "bicarbonato-de-sodio-p-a-acs",
+      "nome": "Bicarbonato de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "BICARBONATO DE SODIO P.A ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "bifluoreto-de-amonio",
+      "nome": "Bifluoreto de amônio",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 129
+        }
+      ],
+      "original": "BIFLUORETO DE AMÔNIO 250grs***R$129,00",
+      "controlado": null
+    },
+    {
+      "id": "bissulfato-de-potassio-p-a",
+      "nome": "Bissulfato de potássio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 159
+        }
+      ],
+      "original": "BISSULFATO DE POTASSIO P.A 250grs***R$ 159,00",
+      "controlado": null
+    },
+    {
+      "id": "bissulfito-de-sodio-p-a-acs",
+      "nome": "Bissulfito de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "BISSULFITO DE SODIO P.A ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "borohidreto-de-sodio-hidreto-de-sodio-e-boro-ps",
+      "nome": "Borohidreto de sódio (hidreto de sódio e boro)",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 249
+        }
+      ],
+      "original": "BOROHIDRETO DE SODIO (HIDRETO DE SÓDIO E BORO) PS 50grs***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "bromato-de-potassio-p-a-acs",
+      "nome": "Bromato de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 159
+        }
+      ],
+      "original": "BROMATO DE POTASSIO P.A ACS 100grs***R$ 159,00",
+      "controlado": null
+    },
+    {
+      "id": "brometo-de-amonio-p-a-acs",
+      "nome": "Brometo de amônio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 69
+        }
+      ],
+      "original": "BROMETO DE AMONIO P.A ACS 250grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "brometo-de-cobre-ii-p-a",
+      "nome": "Brometo de cobre II",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 199
+        }
+      ],
+      "original": "BROMETO DE COBRE II P.A 100grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "brometo-de-etila-p-a",
+      "nome": "Brometo de etila",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 199
+        }
+      ],
+      "original": "BROMETO DE ETILA P.A 100ml***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "brometo-de-potassio-p-a-acs",
+      "nome": "Brometo de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 199
+        }
+      ],
+      "original": "BROMETO DE POTASSIO P.A ACS 250grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "brometo-de-sodio-p-a-acs",
+      "nome": "Brometo de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "BROMETO DE SÓDIO P.A ACS 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "bromo-pentano-p-a",
+      "nome": "Bromo pentano",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 199
+        }
+      ],
+      "original": "BROMO PENTANO P.A 200ml***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "butanodiol-1-4-ps",
+      "nome": "Butanodiol 1,4",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 99
+        }
+      ],
+      "original": "BUTANODIOL 1,4 PS 200ml***     R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "butamben-para-amino-benzoato-de-butila-grau-usp",
+      "nome": "Butamben (para amino benzoato de butila)",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "BUTAMBEN (PARA AMINO BENZOATO DE BUTILA) Grau USP 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "cafeina-anidra-grau-alimenticio",
+      "nome": "Cafeína anidra (grau alimentício)",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 199
+        }
+      ],
+      "original": "CAFEINA ANIDRA (GRAU ALIMENTÍCIO) 100grs***R$199,00",
+      "controlado": null
+    },
+    {
+      "id": "carbonato-de-amonio-p-a-acs",
+      "nome": "Carbonato de amônio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "CARBONATO DE AMONIO P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "carbonato-de-estroncio-p-a",
+      "nome": "Carbonato de estrôncio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "CARBONATO DE ESTRONCIO P.A 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "carbonato-de-potassio-anidro-p-a-acs",
+      "nome": "Carbonato de potássio anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 99
+        }
+      ],
+      "original": "CARBONATO DE POTASSIO ANIDRO P.A ACS 500grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "carbonato-de-sodio-anidro-p-a-acs",
+      "nome": "Carbonato de sódio anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 59
+        }
+      ],
+      "original": "CARBONATO DE SODIO ANIDRO P.A ACS 500grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "catecol-p-a",
+      "nome": "Catecol",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 89
+        }
+      ],
+      "original": "CATECOL P.A 50grs***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "celite-545-terra-diatomacea-p-a",
+      "nome": "Celite 545 (terra diatomácea)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "CELITE 545 (TERRA DIATOMACEA) P.A 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "cianeto-de-benzila-fenil-acetonitrila-p-a",
+      "nome": "Cianeto de benzila (fenil acetonitrila)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 349
+        }
+      ],
+      "original": "CIANETO DE BENZILA (FENIL ACETONITRILA) P.A 100ml***R$ 349,00",
+      "controlado": null
+    },
+    {
+      "id": "cianeto-de-cobre-p-a",
+      "nome": "Cianeto de cobre",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 129
+        }
+      ],
+      "original": "CIANETO DE COBRE P.A 250grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "cianeto-de-zinco-p-a-acs",
+      "nome": "Cianeto de zinco",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "CIANETO DE ZINCO P.A ACS 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "ciclohexanol-ps",
+      "nome": "Ciclohexanol",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 259
+        }
+      ],
+      "original": "CICLOHEXANOL PS 500ml*** R$ 259,00",
+      "controlado": null
+    },
+    {
+      "id": "ciclohexanona-p-a-acs",
+      "nome": "Ciclohexanona",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 129
+        }
+      ],
+      "original": "CICLOHEXANONA P.A ACS 500ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "ciclohexilamina-p-a",
+      "nome": "Ciclohexilamina",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 69
+        }
+      ],
+      "original": "CICLOHEXILAMINA P.A 200ml***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "cinamaldeido-aldeido-cinamico-p-a",
+      "nome": "Cinamaldeído (aldeído cinâmico)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 99
+        }
+      ],
+      "original": "CINAMALDEIDO (ALDEIDO CINAMICO) P.A 200ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "citrato-de-amonio-dibasico-pa-acs",
+      "nome": "Citrato de amônio dibásico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 89
+        }
+      ],
+      "original": "CITRATO DE AMONIO DIBASICO PA ACS 250grs***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "citrato-de-ferro-iii-amoniacal-p-a",
+      "nome": "Citrato de ferro III amoniacal",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 129
+        }
+      ],
+      "original": "CITRATO DE FERRO III AMONIACAL P.A 250grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "clorato-de-sodio-p-a",
+      "nome": "Clorato de sódio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 79
+        }
+      ],
+      "original": "CLORATO DE SODIO P.A 250grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-cianurico-p-a-acs",
+      "nome": "Cloreto cianúrico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "CLORETO CIANURICO P.A ACS 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-alila-propenila-p-a-acs",
+      "nome": "Cloreto de alila (propenila)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 199
+        }
+      ],
+      "original": "CLORETO DE ALILA (PROPENILA) P.A ACS 200ml***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-aluminio-anidro-p-a-acs",
+      "nome": "Cloreto de alumínio anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "CLORETO DE ALUMINIO ANIDRO P.A ACS 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-amonio-p-a-acs",
+      "nome": "Cloreto de amônio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 89
+        }
+      ],
+      "original": "CLORETO DE AMONIO P.A ACS 250grs***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-bario-2h2o-pa-acs",
+      "nome": "Cloreto de bário (2H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "CLORETO DE BARIO (2H2O) PA ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-benzoila-ps",
+      "nome": "Cloreto de benzoila",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 99
+        }
+      ],
+      "original": "CLORETO DE BENZOILA PS 200ml***    R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-calcio-anidro-p-a",
+      "nome": "Cloreto de cálcio anidro",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "CLORETO DE CALCIO ANIDRO P.A 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-cetil-trimetil-amonio-quaternario-p-a",
+      "nome": "Cloreto de cetil trimetil amônio (quaternário)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "CLORETO DE CETIL TRIMETIL AMONIO (QUATERNARIO) P.A 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-cobalto-ii-oso-6h2o-pa-acs",
+      "nome": "Cloreto de cobalto II oso (6H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 69
+        }
+      ],
+      "original": "CLORETO DE COBALTO II OSO (6H2O) PA ACS 50grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-cobre-i-oso-pa",
+      "nome": "Cloreto de cobre I (oso)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "CLORETO DE COBRE I (OSO) PA 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-cobre-ii-ico-pa",
+      "nome": "Cloreto de cobre II (ico)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "CLORETO DE COBRE II (ICO) PA 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-estanho-ii-oso-2h2o-pa-acs",
+      "nome": "Cloreto de estanho II (oso) (2H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 159
+        }
+      ],
+      "original": "CLORETO DE ESTANHO II (OSO) (2H2O) PA ACS 100grs***R$ 159,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-ferro-iii-ico-anidro",
+      "nome": "Cloreto de ferro III (ico) anidro",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 49
+        }
+      ],
+      "original": "CLORETO DE FERRO III (ICO) ANIDRO 100grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-litio-p-a-acs",
+      "nome": "Cloreto de lítio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 99
+        }
+      ],
+      "original": "CLORETO DE LITIO P.A ACS 25grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-magnesio-pa-acs",
+      "nome": "Cloreto de magnésio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "CLORETO DE MAGNESIO PA ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-mercurio-ii-ico-pa-acs",
+      "nome": "Cloreto de mercúrio II (ico)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 899
+        }
+      ],
+      "original": "CLORETO DE MERCURIO II (ICO) PA ACS 25grs***R$ 899,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-metileno-p-a-acs-diclorometano",
+      "nome": "Cloreto de metileno P.A ACS (diclorometano)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        },
+        {
+          "embalagem": "1 L",
+          "preco": 179
+        }
+      ],
+      "original": "CLORETO DE METILENO P.A ACS (DICLOROMETANO) 500ml***R$ 99,00//1 LITRO***R$179,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-niquel-ii-oso-6h2o-pa-acs",
+      "nome": "Cloreto de níquel II (oso) (6H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 49
+        }
+      ],
+      "original": "CLORETO DE NIQUEL  II (OSO) (6H2O) PA ACS 100grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-potassio-p-a",
+      "nome": "Cloreto de potássio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 59
+        }
+      ],
+      "original": "CLORETO DE POTASSIO P.A 500grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-sodio-p-a-acs",
+      "nome": "Cloreto de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "CLORETO DE SODIO P.A ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-tionila-ps",
+      "nome": "Cloreto de tionila",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 439
+        }
+      ],
+      "original": "CLORETO DE TIONILA PS 100ml***  R$ 439,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-tosila-para-tolueno-sulfonila-p-a",
+      "nome": "Cloreto de tosila (para tolueno sulfonila)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "CLORETO DE TOSILA (PARA TOLUENO SULFONILA) P.A 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "cloreto-de-zinco-p-a",
+      "nome": "Cloreto de zinco",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "CLORETO DE ZINCO P.A 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "clorito-de-sodio-puro",
+      "nome": "Clorito de sódio",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "CLORITO DE SODIO PURO 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "cloroacetamida-p-a",
+      "nome": "Cloroacetamida",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "CLOROACETAMIDA P.A 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "cloro-anilina-para-p-a-acs",
+      "nome": "Cloro anilina (para)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 299
+        }
+      ],
+      "original": "CLORO ANILINA (PARA) P.A ACS 100ml***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "clorobenzeno-p-a",
+      "nome": "Clorobenzeno",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 129
+        }
+      ],
+      "original": "CLOROBENZENO P.A 200ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "cloroformio-triclorometano-p-a-acs",
+      "nome": "Clorofórmio (triclorometano)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "CLOROFORMIO (TRICLOROMETANO) P.A ACS 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "cobre-em-po",
+      "nome": "Cobre em po",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 79
+        }
+      ],
+      "original": "COBRE EM PO 100grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "curcumina-pura",
+      "nome": "Curcumina",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "5 g",
+          "preco": 79
+        }
+      ],
+      "original": "CURCUMINA PURA 5grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "ddq-dicloro-2-3-diciano-5-6-benzoquinona",
+      "nome": "DDQ (dicloro-2,3 diciano-5,6 benzoquinona)",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 199
+        }
+      ],
+      "original": "DDQ (DICLORO-2,3 DICIANO-5,6 BENZOQUINONA) 100grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "dicromato-de-amonio-p-a-acs",
+      "nome": "Dicromato de amônio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 79
+        }
+      ],
+      "original": "DICROMATO DE AMONIO P.A ACS 100grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "dicromato-de-potassio-p-a-acs",
+      "nome": "Dicromato de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 79
+        }
+      ],
+      "original": "DICROMATO DE POTASSIO P.A ACS 100grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "dicromato-de-sodio-p-a-acs",
+      "nome": "Dicromato de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 79
+        }
+      ],
+      "original": "DICROMATO DE SODIO P.A ACS 100grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "dietilamina-ps",
+      "nome": "Dietilamina",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 99
+        }
+      ],
+      "original": "DIETILAMINA PS 200ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "dimetil-carbonato-p-a-acs",
+      "nome": "Dimetil carbonato",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 129
+        }
+      ],
+      "original": "DIMETIL CARBONATO P.A ACS 50ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "dimetil-glioxima-p-a-acs",
+      "nome": "Dimetil glioxima",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 99
+        }
+      ],
+      "original": "DIMETIL GLIOXIMA P.A ACS 25grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "dimetilformamida-dmf-p-a-acs",
+      "nome": "Dimetilformamida (DMF)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 129
+        }
+      ],
+      "original": "DIMETILFORMAMIDA (DMF) P.A ACS 500ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "dimetilsulfoxido-dmso-p-a-acs",
+      "nome": "Dimetilsulfoxido (DMSO)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 129
+        }
+      ],
+      "original": "DIMETILSULFOXIDO (DMSO) P.A ACS 200ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "dimetoxi-benzaldeido-2-5-p-a",
+      "nome": "Dimetoxi benzaldeído (2,5)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 299
+        }
+      ],
+      "original": "DIMETOXI BENZALDEIDO (2,5) P.A 50grs***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "dioxido-de-titanio-iv-p-a",
+      "nome": "Dióxido de titanio IV",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "DIOXIDO DE TITANIO IV P.A            250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "dipirona-sodica-grau-usp",
+      "nome": "Dipirona sódica",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 299
+        }
+      ],
+      "original": "DIPIRONA SODICA Grau USP 100grs***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "ditionito-de-sodio-p-a",
+      "nome": "Ditionito de sódio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "DITIONITO DE SODIO P.A 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "dodecano-p-a",
+      "nome": "Dodecano",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 149
+        }
+      ],
+      "original": "DODECANO P.A 200ml***R$ 149,00",
+      "controlado": null
+    },
+    {
+      "id": "dodecanotiol-p-a",
+      "nome": "Dodecanotiol",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 149
+        }
+      ],
+      "original": "DODECANOTIOL P.A 100ml***R$ 149,00",
+      "controlado": null
+    },
+    {
+      "id": "estanho-granulado-20-mesh-p-a",
+      "nome": "Estanho granulado (20 MESH)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "ESTANHO GRANULADO (20 MESH) P.A 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "estearato-de-magnesio-p-a",
+      "nome": "Estearato de magnésio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 129
+        }
+      ],
+      "original": "ESTEARATO DE MAGNÉSIO P.A 250grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "eter-etilico-p-a",
+      "nome": "Éter etílico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 179
+        },
+        {
+          "embalagem": "1 L",
+          "preco": 350
+        }
+      ],
+      "original": "ETER ETILICO P.A 500ml***R$ 179,00//01 litro***R$350,00",
+      "controlado": null
+    },
+    {
+      "id": "etilenodiamina-anidra-p-a",
+      "nome": "Etilenodiamina anidra",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 79
+        }
+      ],
+      "original": "ETILENODIAMINA ANIDRA P.A 200ml***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "etilenoglicol-p-a-monoetilenoglicol",
+      "nome": "Etilenoglicol P.A (monoetilenoglicol)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 59
+        }
+      ],
+      "original": "ETILENOGLICOL P.A (MONOETILENOGLICOL) 500ML***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "etoxido-de-sodio-p-a",
+      "nome": "Etoxido de sódio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 199
+        }
+      ],
+      "original": "ETOXIDO DE SODIO P.A 50grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "eugenol-puro",
+      "nome": "Eugenol",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 249
+        }
+      ],
+      "original": "EUGENOL PURO 50ml***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "fenil-2-nitropropeno-p2np-p-a",
+      "nome": "Fenil 2 nitropropeno (P2NP)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 299
+        }
+      ],
+      "original": "FENIL 2 NITROPROPENO (P2NP) P.A 25grs***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "fenilacetaldeido-puro",
+      "nome": "Fenilacetaldeído",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 199
+        }
+      ],
+      "original": "FENILACETALDEIDO PURO 50ml***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "fenil-acetato-de-fenil-etila-puro",
+      "nome": "Fenil acetato de fenil etila",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 99
+        }
+      ],
+      "original": "FENIL ACETATO DE FENIL ETILA PURO 50ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "fenilalanina-l-p-a",
+      "nome": "Fenilalanina (l)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 89
+        }
+      ],
+      "original": "FENILALANINA (L) P.A 100grs***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "fenol-cristal-pa-acs-acido-fenico",
+      "nome": "Fenol cristal PA ACS (ácido fênico)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 69
+        }
+      ],
+      "original": "FENOL CRISTAL PA ACS (ACIDO FENICO) 100grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "fenolftaleina-p-a-acs",
+      "nome": "Fenolftaleína",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "FENOLFTALEINA P.A ACS 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "ferro-reduzido-em-po-p-a",
+      "nome": "Ferro reduzido em po",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 129
+        }
+      ],
+      "original": "FERRO REDUZIDO EM PO P.A 500grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "ferrocianeto-de-potassio-3h2o-pa-acs",
+      "nome": "Ferrocianeto de potássio (3H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 129
+        }
+      ],
+      "original": "FERROCIANETO DE POTASSIO (3H2O) PA ACS 250grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "fluoreto-de-amonio-p-a-acs",
+      "nome": "Fluoreto de amônio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 49
+        }
+      ],
+      "original": "FLUORETO DE AMONIO P.A ACS 100grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "fluoreto-de-calcio-p-a",
+      "nome": "Fluoreto de cálcio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 129
+        }
+      ],
+      "original": "FLUORETO DE CALCIO P.A 25grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "fluoreto-de-potassio-anidro-p-a",
+      "nome": "Fluoreto de potássio anidro",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 199
+        }
+      ],
+      "original": "FLUORETO DE POTASSIO ANIDRO P.A 100grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "fluoreto-de-sodio-anidro-p-a-acs",
+      "nome": "Fluoreto de sódio anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 249
+        }
+      ],
+      "original": "FLUORETO DE SODIO ANIDRO P.A ACS 250grs***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "formaldeido-formol-aldeido-formico-37-p-a-acs",
+      "nome": "Formaldeído (formol) (aldeído fórmico) 37%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 49
+        }
+      ],
+      "original": "FORMALDEIDO (FORMOL) (ALDEIDO FORMICO) 37% P.A ACS 1 Litro***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "formamida-p-a-acs",
+      "nome": "Formamida",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 199
+        }
+      ],
+      "original": "FORMAMIDA P.A ACS 500ml***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "formiato-de-sodio-p-a-formato",
+      "nome": "Formiato de sódio P.A (formato)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 49
+        }
+      ],
+      "original": "FORMIATO DE SODIO P.A (FORMATO) 100grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "fosfato-de-calcio-tribasico-p-a",
+      "nome": "Fosfato de cálcio tribásico",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "FOSFATO DE CALCIO TRIBASICO P.A 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "fosfato-de-ferro-p-a",
+      "nome": "Fosfato de ferro",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 99
+        }
+      ],
+      "original": "FOSFATO DE FERRO P.A 25grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "fosfato-de-potassio-monobasico-anidro-p-a-acs",
+      "nome": "Fosfato de potássio monobásico anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "FOSFATO DE POTASSIO MONOBASICO ANIDRO P.A ACS 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "fosfato-de-sodio-dibasico-12h2o-p-a",
+      "nome": "Fosfato de sódio dibásico (12H2O)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "FOSFATO DE SODIO DIBASICO (12H2O) P.A 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "fosfato-de-sodio-monobasico-1h2o-p-a-acs",
+      "nome": "Fosfato de sódio monobásico (1H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "FOSFATO DE SODIO MONOBASICO (1H2O) P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "fosfato-de-sodio-tribasico-12h2o-pa-acs",
+      "nome": "Fosfato de sódio tribásico (12H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "FOSFATO DE SODIO TRIBASICO (12H2O) PA ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "fosforo-vermelho-puro",
+      "nome": "Fósforo vermelho",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 249
+        }
+      ],
+      "original": "FOSFORO VERMELHO PURO 25grs***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "furfural-furfuraldeido-p-s",
+      "nome": "Furfural (furfuraldeído)",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 99
+        }
+      ],
+      "original": "FURFURAL (FURFURALDEIDO) P.S 100ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "glicerina-bidestilada-p-a-vegetal",
+      "nome": "Glicerina bidestilada P.A (vegetal)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 49
+        }
+      ],
+      "original": "GLICERINA BIDESTILADA P.A (VEGETAL) 500ml***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "glicina-pa-acs-acido-amino-acetico",
+      "nome": "Glicina PA ACS (ácido amino acético)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 mL",
+          "preco": 99
+        }
+      ],
+      "original": "GLICINA PA ACS (ACIDO AMINO ACETICO) 250ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "glicina-etil-ester-cloridrato",
+      "nome": "Glicina etil éster (cloridrato)",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 249
+        }
+      ],
+      "original": "GLICINA ETIL ESTER (CLORIDRATO) 100grs***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "guaiacol-puro",
+      "nome": "Guaiacol",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 69
+        }
+      ],
+      "original": "GUAIACOL PURO 50grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "helional-puro",
+      "nome": "Helional",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 99
+        }
+      ],
+      "original": "HELIONAL PURO 100ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "heptanoato-de-alila-puro",
+      "nome": "Heptanoato de alila",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 69
+        }
+      ],
+      "original": "HEPTANOATO DE ALILA PURO 100ml***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "hexametilenotetramina-hexamina-hmta-pura",
+      "nome": "Hexametilenotetramina (hexamina) (HMTA)",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "HEXAMETILENOTETRAMINA (HEXAMINA) (HMTA) PURA 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "hexano-p-a-acs-mistura-de-isomeros",
+      "nome": "Hexano P.A ACS (mistura de isômeros)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 89
+        }
+      ],
+      "original": "HEXANO P.A ACS (Mistura de Isomeros) 500ml***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "hidrato-de-hidrazina-p-a-65-p-a-acs",
+      "nome": "Hidrato de hidrazina P.A 65%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 249
+        }
+      ],
+      "original": "HIDRATO DE HIDRAZINA P.A 65% P.A ACS 100ml***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "hidreto-de-aluminio-p-a",
+      "nome": "Hidreto de alumínio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 249
+        }
+      ],
+      "original": "HIDRETO DE ALUMINIO P.A 25grs***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "hidreto-de-litio-e-aluminio-p-a",
+      "nome": "Hidreto de lítio e alumínio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 699
+        }
+      ],
+      "original": "HIDRETO DE LÍTIO E ALUMINIO P.A 25grs*** R$ 699,00",
+      "controlado": null
+    },
+    {
+      "id": "hidreto-de-sodio-p-a",
+      "nome": "Hidreto de sódio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 349
+        }
+      ],
+      "original": "HIDRETO DE SODIO P.A 25grs***R$ 349,00",
+      "controlado": null
+    },
+    {
+      "id": "hidroquinona-p-a",
+      "nome": "Hidroquinona",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "HIDROQUINONA P.A 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "hidroxido-de-amonio-28-30-pa-acs",
+      "nome": "Hidróxido de amônio 28% - 30%",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 99
+        }
+      ],
+      "original": "HIDROXIDO DE AMONIO 28% - 30% PA ACS 1 Litro***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "hidroxido-de-calcio-p-a-acs",
+      "nome": "Hidróxido de cálcio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "HIDROXIDO DE CALCIO P.A ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "hidroxido-de-magnesio-p-a",
+      "nome": "Hidróxido de magnésio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 69
+        }
+      ],
+      "original": "HIDROXIDO DE MAGNÉSIO P.A 500grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "hidroxido-de-potassio-p-a-acs",
+      "nome": "Hidróxido de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 69
+        }
+      ],
+      "original": "HIDROXIDO DE POTASSIO P.A ACS 500grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "hidroxido-de-sodio-microperolas-p-a-acs",
+      "nome": "Hidróxido de sódio (micropérolas)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "HIDROXIDO DE SODIO (MICROPEROLAS) P.A ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "hidroxilamina-cloridrato-p-a",
+      "nome": "Hidroxilamina (cloridrato)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "HIDROXILAMINA (CLORIDRATO) P.A 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "hidroxilamina-sulfato-p-a-acs",
+      "nome": "Hidroxilamina (sulfato)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "HIDROXILAMINA (SULFATO) P.A ACS 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "hipofosfito-de-sodio-monohidratado-p-a",
+      "nome": "Hipofosfito de sódio monohidratado",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "HIPOFOSFITO DE SODIO MONOHIDRATADO P.A 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "imidazol-p-a-acs",
+      "nome": "Imidazol",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 69
+        }
+      ],
+      "original": "IMIDAZOL P.A ACS 100grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "indol-p-a",
+      "nome": "Indol",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 129
+        }
+      ],
+      "original": "INDOL P.A 50grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "iodato-de-potassio-p-a-acs",
+      "nome": "Iodato de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 199
+        }
+      ],
+      "original": "IODATO DE POTASSIO P.A ACS 100grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "iodeto-de-metila-p-a-acs",
+      "nome": "Iodeto de metila",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "25 mL",
+          "preco": 349
+        }
+      ],
+      "original": "IODETO DE METILA P.A ACS 25ml***R$ 349,00",
+      "controlado": null
+    },
+    {
+      "id": "iodeto-de-potassio-p-a-acs",
+      "nome": "Iodeto de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 129
+        }
+      ],
+      "original": "IODETO DE POTASSIO P.A ACS 50grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "iodo-metalico-p-a-acs",
+      "nome": "Iodo metálico",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 129
+        }
+      ],
+      "original": "IODO METALICO P.A ACS 50grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "isopropoxido-de-aluminio-p-a",
+      "nome": "Isopropoxido de alumínio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "ISOPROPOXIDO DE ALUMINIO P.A 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "isopropoxido-de-titanio-p-a",
+      "nome": "Isopropoxido de titânio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 129
+        }
+      ],
+      "original": "ISOPROPOXIDO DE TITÂNIO P.A 100ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "lactose-1h2o-p-a-d",
+      "nome": "Lactose (1H2O) P.A (d+)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 59
+        }
+      ],
+      "original": "LACTOSE (1H2O) P.A (D+) 500grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "lauril-sulfato-de-sodio-p-a",
+      "nome": "Lauril sulfato de sódio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 49
+        }
+      ],
+      "original": "LAURIL SULFATO DE SODIO P.A 100grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "lidocaina-cloridrato-grau-usp",
+      "nome": "Lidocaina (cloridrato)",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 199
+        }
+      ],
+      "original": "LIDOCAINA (CLORIDRATO) Grau USP 100grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "magnesio-em-aparas",
+      "nome": "Magnésio em aparas",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 129
+        }
+      ],
+      "original": "MAGNESIO EM APARAS 100grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "mercurio-metalico",
+      "nome": "Mercúrio metálico",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "10 g",
+          "preco": 399
+        }
+      ],
+      "original": "MERCURIO METALICO 10grs***R$ 399,00",
+      "controlado": null
+    },
+    {
+      "id": "metabisulfito-de-sodio-p-a-acs",
+      "nome": "Metabisulfito de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "METABISULFITO DE SÓDIO P.A ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "metil-etil-cetona-mek-p-a-acs",
+      "nome": "Metil etil cetona (MEK)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "METIL ETIL CETONA (MEK) P.A ACS 500ML***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "2-metil-piridina-p-a-acs",
+      "nome": "2'metil piridina",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 129
+        }
+      ],
+      "original": "2'METIL PIRIDINA P.A ACS 100ml***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "4-metil-propiofenona",
+      "nome": "4'metil propiofenona",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 299
+        }
+      ],
+      "original": " 4'METIL PROPIOFENONA 200ml***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "metilamina-40-aquosa-p-a",
+      "nome": "Metilamina 40% aquosa",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 299
+        }
+      ],
+      "original": "METILAMINA 40% AQUOSA P.A 200ml***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "metoxido-de-sodio-p-a",
+      "nome": "Metoxido de sódio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 179
+        }
+      ],
+      "original": "METOXIDO DE SÓDIO P.A 50grs***R$ 179,00",
+      "controlado": null
+    },
+    {
+      "id": "molibdato-de-amoneo-4h2o-pa-acs",
+      "nome": "Molibdato de amoneo (4H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 129
+        }
+      ],
+      "original": "MOLIBDATO DE AMONEO (4H2O) PA ACS 50grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "morfolina-p-a-acs",
+      "nome": "Morfolina",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 79
+        }
+      ],
+      "original": "MORFOLINA P.A ACS 200ml***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "n-bromosuccinimida-ps",
+      "nome": "N bromosuccinimida",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 199
+        }
+      ],
+      "original": "N BROMOSUCCINIMIDA PS  50grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "n-metil-2-pirrolidona-ps",
+      "nome": "N metil 2 pirrolidona",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 129
+        }
+      ],
+      "original": "N METIL 2 PIRROLIDONA PS 200ml***       R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "niquel-em-po",
+      "nome": "Níquel em po",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 99
+        }
+      ],
+      "original": "NIQUEL EM PO 50grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrato-de-bario-p-a-acs",
+      "nome": "Nitrato de bário",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 49
+        }
+      ],
+      "original": "NITRATO DE BÁRIO P.A ACS 100grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrato-de-bismuto-iii-neutro-pa-acs",
+      "nome": "Nitrato de bismuto III neutro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 79
+        }
+      ],
+      "original": "NITRATO DE BISMUTO III NEUTRO PA ACS 50grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrato-de-chumbo-ii-pa-acs",
+      "nome": "Nitrato de chumbo II",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "NITRATO DE CHUMBO II PA ACS  250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrato-de-cobre-ii-ico-3h2o-pa-acs",
+      "nome": "Nitrato de cobre II ico (3H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "NITRATO DE COBRE II ICO (3H2O) PA ACS 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrato-de-manganes-iii-sol-50",
+      "nome": "Nitrato de manganês III (sol. 50%)",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "250 mL",
+          "preco": 119
+        }
+      ],
+      "original": "NITRATO DE MANGANES III (SOL. 50%) 250ml***R$ 119,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrato-de-potassio-p-a-acs",
+      "nome": "Nitrato de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "NITRATO DE POTASSIO P.A ACS 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrato-de-prata-p-a-acs",
+      "nome": "Nitrato de prata",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "5 g",
+          "preco": 299
+        }
+      ],
+      "original": "NITRATO DE PRATA P.A ACS 5 grs***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrato-de-sodio-p-a-acs",
+      "nome": "Nitrato de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "NITRATO DE SODIO P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrito-de-isoamila-puro-97",
+      "nome": "Nitrito de isoamila puro 97%",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "25 mL",
+          "preco": 99
+        }
+      ],
+      "original": "NITRITO DE ISOAMILA PURO 97% 25ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrito-de-isobutila-puro-97",
+      "nome": "Nitrito de isobutila puro 97%",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "25 mL",
+          "preco": 99
+        }
+      ],
+      "original": "NITRITO DE ISOBUTILA PURO 97% 25ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrito-de-sodio-p-a-acs",
+      "nome": "Nitrito de sódio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "NITRITO DE SODIO P.A ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrobenzeno-p-a-acs",
+      "nome": "Nitrobenzeno",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 69
+        }
+      ],
+      "original": "NITROBENZENO P.A ACS 200ml***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "nitroetano-p-a",
+      "nome": "Nitroetano",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 349
+        }
+      ],
+      "original": "NITROETANO P.A 100ml***R$ 349,00",
+      "controlado": null
+    },
+    {
+      "id": "nitrometano-p-a",
+      "nome": "Nitrometano",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 mL",
+          "preco": 249
+        }
+      ],
+      "original": "NITROMETANO P.A 100ml***R$ 249,00",
+      "controlado": null
+    },
+    {
+      "id": "nitroprussiato-de-sodio-2h2o-pa-acs",
+      "nome": "Nitroprussiato de sódio 2H2O",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 69
+        }
+      ],
+      "original": "NITROPRUSSIATO DE SÓDIO 2H2O PA ACS 25grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "orto-toluidina-p-a",
+      "nome": "Orto toluidina",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 99
+        }
+      ],
+      "original": "ORTO TOLUIDINA P.A 50ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "oxido-de-aluminio-p-a",
+      "nome": "Óxido de alumínio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "OXIDO DE ALUMINIO P.A 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "oxido-de-antimonio-iii-p-a-trioxido",
+      "nome": "Óxido de antimônio III P.A (trióxido)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 129
+        }
+      ],
+      "original": "OXIDO DE ANTIMONIO III P.A (TRIOXIDO) 50grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "oxido-de-calcio-p-a",
+      "nome": "Óxido de cálcio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 69
+        }
+      ],
+      "original": "OXIDO DE CALCIO P.A 500grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "oxido-de-cobre-i-oso-p-a",
+      "nome": "Óxido de cobre I (oso)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 99
+        }
+      ],
+      "original": "OXIDO DE COBRE I (OSO) P.A 50grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "oxido-de-cobre-ii-ico-pa-acs",
+      "nome": "Óxido de cobre II (ico)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 79
+        }
+      ],
+      "original": "OXIDO DE COBRE II (ICO) PA ACS 100grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "oxido-de-zinco-p-a-acs",
+      "nome": "Óxido de zinco",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 89
+        }
+      ],
+      "original": "OXIDO DE ZINCO P.A ACS 500grs***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "paraformaldeido-p-a",
+      "nome": "Paraformaldeído",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "PARAFORMALDEIDO P.A 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "pentoxido-de-fosforo-oxido-de-fosforo-v-pa-acs",
+      "nome": "Pentóxido de fósforo (óxido de fósforo V)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "PENTOXIDO DE FOSFORO (OXIDO DE FOSFORO V) PA ACS 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "pentoxido-de-vanadio-oxido-de-vanadio-v-p-a",
+      "nome": "Pentóxido de vanádio (óxido de vanádio V)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 99
+        }
+      ],
+      "original": "PENTOXIDO DE VANÁDIO (OXIDO DE VANADIO V) P.A 50grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "perborato-de-sodio-4h2o-pa",
+      "nome": "Perborato de sódio 4H2O",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "PERBORATO DE SODIO 4H2O PA 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "percarbonato-de-sodio",
+      "nome": "Percarbonato de sódio",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 149
+        }
+      ],
+      "original": "PERCARBONATO DE SÓDIO 100grs***R$ 149,00",
+      "controlado": null
+    },
+    {
+      "id": "perclorato-de-sodio-anidro-pa-acs",
+      "nome": "Perclorato de sódio anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 319
+        }
+      ],
+      "original": "PERCLORATO DE SODIO ANIDRO PA ACS 100grs***R$ 319,00",
+      "controlado": null
+    },
+    {
+      "id": "perclorato-de-potassio-p-a",
+      "nome": "Perclorato de potássio",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 299
+        }
+      ],
+      "original": "PERCLORATO DE POTÁSSIO P.A 250grs***299,00",
+      "controlado": null
+    },
+    {
+      "id": "periodato-de-sodio-meta-p-a-acs",
+      "nome": "Periodato de sódio (meta)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 299
+        }
+      ],
+      "original": "PERIODATO DE SODIO (META) P.A ACS 50grs***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "permanganato-de-potassio-p-a-acs",
+      "nome": "Permanganato de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 129
+        }
+      ],
+      "original": "PERMANGANATO DE POTASSIO P.A ACS 50grs***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "peroxido-de-hidrogenio-50-200vol-p-a-acs",
+      "nome": "Peróxido de hidrogênio 50% (200Vol)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 79
+        }
+      ],
+      "original": "PEROXIDO DE HIDROGENIO 50% (200Vol) P.A ACS 1 Litro***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "peroximonosulfato-de-potassio-oxone-p-a",
+      "nome": "Peroximonosulfato de potássio (oxone)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "PEROXIMONOSULFATO DE POTÁSSIO (OXONE) P.A 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "persulfato-de-amonio-p-a-acs",
+      "nome": "Persulfato de amônio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "PERSULFATO DE AMONIO P.A ACS 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "persulfato-de-potassio-p-a-acs",
+      "nome": "Persulfato de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "PERSULFATO DE POTASSIO P.A ACS 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "picrato-de-butesina-grau-usp",
+      "nome": "Picrato de butesina",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "5 g",
+          "preco": 99
+        }
+      ],
+      "original": "PICRATO DE BUTESINA Grau USP 5 grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "piperidina-cloridrato-p-a",
+      "nome": "Piperidina (cloridrato)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 399
+        }
+      ],
+      "original": "PIPERIDINA (CLORIDRATO) P.A 50grs***R$ 399,00",
+      "controlado": null
+    },
+    {
+      "id": "piridina-p-a-acs",
+      "nome": "Piridina",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 89
+        }
+      ],
+      "original": "PIRIDINA P.A ACS 200ml***R$ 89,00",
+      "controlado": null
+    },
+    {
+      "id": "prolina-l-p-a",
+      "nome": "Prolina (l)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 99
+        }
+      ],
+      "original": "PROLINA (L) P.A 50grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "propanolol-cloridrato-grau-usp",
+      "nome": "Propanolol (cloridrato)",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 199
+        }
+      ],
+      "original": "PROPANOLOL (CLORIDRATO) Grau USP 100grs***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "propilenoglicol-1-2-p-a-acs",
+      "nome": "Propilenoglicol 1,2",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 69
+        }
+      ],
+      "original": "PROPILENOGLICOL 1,2 P.A ACS 500ml***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "propiofenona-p-a",
+      "nome": "Propiofenona",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 mL",
+          "preco": 199
+        }
+      ],
+      "original": "PROPIOFENONA P.A 50ml***R$ 199,00",
+      "controlado": null
+    },
+    {
+      "id": "sacarose-sucrose-d-p-a",
+      "nome": "Sacarose (sucrose) d(+)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "SACAROSE (SUCROSE) D(+) P.A 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "safranina-p-a",
+      "nome": "Safranina",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 79
+        }
+      ],
+      "original": "SAFRANINA P.A 25grs***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "salicilato-de-metila-p-a",
+      "nome": "Salicilato de metila",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "SALICILATO DE METILA P.A 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "sodamida-p-a",
+      "nome": "Sodamida",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 749
+        }
+      ],
+      "original": "SODAMIDA P.A 50grs***R$ 749,00",
+      "controlado": null
+    },
+    {
+      "id": "sodio-metalico-puro",
+      "nome": "Sódio metálico",
+      "grau": "Puro",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 149
+        }
+      ],
+      "original": "SODIO METALICO PURO 50grs***R$ 149,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfanilamida-p-a",
+      "nome": "Sulfanilamida",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 69
+        }
+      ],
+      "original": "SULFANILAMIDA P.A 50grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-aluminio-e-potassio-12h2o-p-a-acs-alumen",
+      "nome": "Sulfato de alumínio e potássio 12H2O P.A ACS (alúmen)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 59
+        }
+      ],
+      "original": "SULFATO DE ALUMINIO E POTASSIO 12H2O P.A ACS (ALUMEN) 250grs***R$ 59,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-amonio-p-a-acs",
+      "nome": "Sulfato de amônio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "SULFATO DE AMONIO P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-atropina-grau-usp",
+      "nome": "Sulfato de atropina",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "5 g",
+          "preco": 599
+        }
+      ],
+      "original": "SULFATO DE ATROPINA Grau USP 5 grs***R$ 599,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-cobre-ii-ico-5h2o-pa-acs",
+      "nome": "Sulfato de cobre II ico (5H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "SULFATO DE COBRE II ICO (5H2O) PA ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-hidrazina-p-a-acs",
+      "nome": "Sulfato de hidrazina",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 99
+        }
+      ],
+      "original": "SULFATO DE HIDRAZINA P.A ACS 50grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-magnesio-anidro",
+      "nome": "Sulfato de magnésio anidro",
+      "grau": null,
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 69
+        }
+      ],
+      "original": "SULFATO DE MAGNESIO ANIDRO 250grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-manganes-p-a-acs",
+      "nome": "Sulfato de manganês",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "SULFATO DE MANGANES P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-sodio-anidro-pa-acs",
+      "nome": "Sulfato de sódio anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "SULFATO DE SODIO ANIDRO PA ACS 500grsR$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfato-de-ferro-ii-oso-7-h2o-p-a-acs",
+      "nome": "Sulfato de ferro II (oso) 7 H2O",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "SULFATO DE FERRO  II (OSO) 7 H2O P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfeto-de-fosforo-pentasulfeto-p-a",
+      "nome": "Sulfeto de fósforo (pentasulfeto)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 349
+        }
+      ],
+      "original": "SULFETO DE FOSFORO (PENTASULFETO) P.A 25grs***R$ 349,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfeto-de-sodio-9h2o-pa-acs",
+      "nome": "Sulfeto de sódio 9H2O",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 399
+        }
+      ],
+      "original": "SULFETO DE SODIO 9H2O PA ACS 100grs***R$ 399,00",
+      "controlado": null
+    },
+    {
+      "id": "sulfito-de-sodio-anidro-pa-acs",
+      "nome": "Sulfito de sódio anidro",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "SULFITO DE SODIO ANIDRO PA ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "tbab-brometo-de-tetra-butil-amonio-p-a-acs",
+      "nome": "TBAB (brometo de tetra butil amônio)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 99
+        }
+      ],
+      "original": "TBAB (BROMETO DE TETRA BUTIL AMONIO) P.A ACS 100grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "tcca-acido-tricloro-cianurico-triclorotriazina-p-a",
+      "nome": "TCCA (ácido tricloro cianúrico) (triclorotriazina)",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 149
+        }
+      ],
+      "original": "TCCA (ACIDO TRICLORO CIANURICO) (TRICLOROTRIAZINA) P.A 250grs***R$ 149,00",
+      "controlado": null
+    },
+    {
+      "id": "tetracaina-cloridrato-grau-usp",
+      "nome": "Tetracaina (cloridrato)",
+      "grau": "Grau USP",
+      "variantes": [
+        {
+          "embalagem": "100 g",
+          "preco": 299
+        }
+      ],
+      "original": "TETRACAINA (CLORIDRATO) Grau USP 100grs***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "tetrahidrofurano-thf-p-a-acs",
+      "nome": "Tetrahidrofurano (THF)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "TETRAHIDROFURANO (THF) P.A ACS 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "tiocianato-de-amonio-p-a-acs",
+      "nome": "Tiocianato de amônio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "200 g",
+          "preco": 49
+        }
+      ],
+      "original": "TIOCIANATO DE AMONIO P.A ACS 200grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "tiocianato-de-potassio-p-a-acs",
+      "nome": "Tiocianato de potássio",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 99
+        }
+      ],
+      "original": "TIOCIANATO DE POTASSIO P.A ACS 250grs***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "tiossulfato-de-sodio-cristal-5h2o-pa-acs",
+      "nome": "Tiossulfato de sódio cristal (5H2O)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "300 g",
+          "preco": 49
+        }
+      ],
+      "original": "TIOSSULFATO DE SODIO CRISTAL (5H2O) PA ACS 300grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "tioureia-p-a-acs",
+      "nome": "Tioureia",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 49
+        }
+      ],
+      "original": "TIOUREIA P.A ACS 250grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "tolueno-toluol-p-a-acs",
+      "nome": "Tolueno (toluol)",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 129
+        }
+      ],
+      "original": "TOLUENO (TOLUOL) P.A ACS 1 Litro***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "tricloroetileno-p-a-acs",
+      "nome": "Tricloroetileno",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 mL",
+          "preco": 99
+        }
+      ],
+      "original": "TRICLOROETILENO P.A ACS 500ml***R$ 99,00",
+      "controlado": null
+    },
+    {
+      "id": "trietilamina-p-a",
+      "nome": "Trietilamina",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "200 mL",
+          "preco": 79
+        }
+      ],
+      "original": "TRIETILAMINA P.A 200ml***R$ 79,00",
+      "controlado": null
+    },
+    {
+      "id": "trifenil-fosfina-p-a",
+      "nome": "Trifenil fosfina",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 299
+        }
+      ],
+      "original": "TRIFENIL FOSFINA P.A 50grs***R$ 299,00",
+      "controlado": null
+    },
+    {
+      "id": "tropinona-ps",
+      "nome": "Tropinona",
+      "grau": "P.S.",
+      "variantes": [
+        {
+          "embalagem": "25 g",
+          "preco": 349
+        }
+      ],
+      "original": "TROPINONA PS 25grs***R$ 349,00",
+      "controlado": null
+    },
+    {
+      "id": "ureia-p-a-acs",
+      "nome": "Ureia",
+      "grau": "P.A. ACS",
+      "variantes": [
+        {
+          "embalagem": "500 g",
+          "preco": 49
+        }
+      ],
+      "original": "UREIA P.A ACS 500grs***R$ 49,00",
+      "controlado": null
+    },
+    {
+      "id": "vanilina-p-a",
+      "nome": "Vanilina",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "50 g",
+          "preco": 69
+        }
+      ],
+      "original": "VANILINA P.A 50grs***R$ 69,00",
+      "controlado": null
+    },
+    {
+      "id": "xileno-xilol-pa-acs-iso-mistura-de-isomeros",
+      "nome": "Xileno (xilol) PA ACS ISO (mistura de isômeros)",
+      "grau": "P.A. ACS ISO",
+      "variantes": [
+        {
+          "embalagem": "1 L",
+          "preco": 129
+        }
+      ],
+      "original": "XILENO (XILOL) PA ACS ISO (Mistura de Isomeros) 1 Litro***R$ 129,00",
+      "controlado": null
+    },
+    {
+      "id": "zinco-metalico-em-po-p-a",
+      "nome": "Zinco metálico em po",
+      "grau": "P.A.",
+      "variantes": [
+        {
+          "embalagem": "250 g",
+          "preco": 69
+        }
+      ],
+      "original": "ZINCO METALICO EM PO P.A 250grs***R$ 69,00",
+      "controlado": null
+    }
+  ]
+}

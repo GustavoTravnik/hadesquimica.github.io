@@ -4,6 +4,12 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { renderTabelaProdutosHtml } from './render-tabela-produtos.mjs';
+import { gerarRelatorioProdutos } from './gerar-relatorio.mjs';
+import { normalizarProdutos } from './normalizar-produtos.mjs';
+
+// Normaliza produtos a partir do bruto antes do build
+normalizarProdutos();
 
 const RAIZ = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const ler = (...p) => readFileSync(join(RAIZ, ...p), 'utf8');
@@ -126,6 +132,7 @@ function paginaHome(raiz) {
     diferenciais: h.diferenciais.itens
       .map((i) => `          <li>${icone(i.icone)}<span>${esc(i.titulo)}</span></li>`)
       .join('\n'),
+    urlListaProdutos: hrefDe(raiz, 'lista-de-produtos-e-precos'),
     contatoTitulo: h.contatoRapido.titulo,
     contatoTexto: h.contatoRapido.texto,
     whatsappUrl,
@@ -191,13 +198,25 @@ function paginaContato(raiz, p) {
 }
 
 function paginaProdutos(raiz, p) {
+  const produtosData = JSON.parse(ler('src', 'data', 'produtos.json'));
+  const linhasTabelaHtml = renderTabelaProdutosHtml(produtosData, p.dataExibicao || '30/08/2026');
   return render(modelo('produtos'), {
     titulo: p.titulo,
-    paragrafos: paragrafos(p.paragrafos, 'lead'),
-    acao: hrefDe(raiz, 'contacto'),
-    rotulo: p.busca.rotulo,
-    placeholder: p.busca.placeholder,
-    botao: p.busca.botao,
+    seloData: p.seloData,
+    heroApoio: p.heroApoio,
+    paragrafosHtml: paragrafos(p.paragrafos, 'lead'),
+    comoComprarTitulo: p.comoComprar.titulo,
+    buscaRotulo: p.busca.rotulo,
+    buscaPlaceholder: p.busca.placeholder,
+    linhasTabelaHtml,
+    urlContato: hrefDe(raiz, 'contacto'),
+    whatsappUrl,
+    iconeWhatsapp: icone('whatsapp'),
+    avisoLegal: p.avisoLegal,
+    ctaNaoEncontrouTitulo: p.ctaNaoEncontrou.titulo,
+    ctaNaoEncontrouTexto: p.ctaNaoEncontrou.texto,
+    ctaNaoEncontrouBtnWa: p.ctaNaoEncontrou.botaoWhatsapp,
+    ctaNaoEncontrouBtnContato: p.ctaNaoEncontrou.botaoContato,
   });
 }
 
@@ -296,5 +315,8 @@ escrever('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="
 escrever('robots.txt', c.indexavel
   ? `User-agent: *\nAllow: /\n\nSitemap: ${base}sitemap.xml`
   : 'User-agent: *\nDisallow: /');
+
+// Relatório automático da lista de produtos e pendências para o cliente
+gerarRelatorioProdutos();
 
 console.log(`Build ok: ${paginas.length} páginas + 404.html | indexável: ${c.indexavel} | pendências visíveis: ${c.mostrarPendencias}`);

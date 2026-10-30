@@ -31,21 +31,58 @@
     "avisoLegalPendencia": "TODO: validar com jurídico/cliente"
   },
   "menu": [
-    { "rotulo": "Home", "slug": "" },
-    { "rotulo": "Quem Somos", "slug": "quienes-somos" },
-    { "rotulo": "Lista de Produtos e preços", "slug": "lista-de-produtos-e-precos" },
-    { "rotulo": "Nossos serviços", "slug": "nossos-servicos", "submenu": true },
-    { "rotulo": "Parcerias", "slug": "parcerias" },
-    { "rotulo": "Contato", "slug": "contacto" }
+    {
+      "rotulo": "Home",
+      "slug": ""
+    },
+    {
+      "rotulo": "Quem Somos",
+      "slug": "quienes-somos"
+    },
+    {
+      "rotulo": "Lista de Produtos e preços",
+      "slug": "lista-de-produtos-e-precos"
+    },
+    {
+      "rotulo": "Nossos serviços",
+      "slug": "nossos-servicos",
+      "submenu": true
+    },
+    {
+      "rotulo": "Parcerias",
+      "slug": "parcerias"
+    },
+    {
+      "rotulo": "Contato",
+      "slug": "contacto"
+    }
   ],
   "rodape": {
     "links": [
-      { "rotulo": "Home", "slug": "" },
-      { "rotulo": "Quem Somos", "slug": "quienes-somos" },
-      { "rotulo": "Nossos serviços", "slug": "nossos-servicos" },
-      { "rotulo": "Parcerias", "slug": "parcerias" },
-      { "rotulo": "Contato", "slug": "contacto" },
-      { "rotulo": "Lista de Produtos e Preços", "slug": "lista-de-produtos-e-precos" }
+      {
+        "rotulo": "Home",
+        "slug": ""
+      },
+      {
+        "rotulo": "Quem Somos",
+        "slug": "quienes-somos"
+      },
+      {
+        "rotulo": "Nossos serviços",
+        "slug": "nossos-servicos"
+      },
+      {
+        "rotulo": "Parcerias",
+        "slug": "parcerias"
+      },
+      {
+        "rotulo": "Contato",
+        "slug": "contacto"
+      },
+      {
+        "rotulo": "Lista de Produtos e Preços",
+        "slug": "lista-de-produtos-e-precos"
+      }
     ]
   },
   "ui": {
@@ -62,7 +99,11 @@
     "seoTitulo": "Chemi Pharma | Produtos químicos e farmacêuticos",
     "seoDescricao": "Reagentes, matérias-primas e princípios ativos químico-farmacêuticos com qualidade garantida, preço justo e rapidez na entrega. Peça seu orçamento.",
     "texto1": "Garantia de qualidade com preço justo e rapidez na entrega de seu produto. Atendemos toda a linha de reagentes laboratoriais e matérias primas que sua empresa, laboratório, farmácia de manipulação ou empreendimento pessoal necessitar, ainda que impossível adquiri-lo no Brasil.",
-    "placeholder": { "largura": 1133, "altura": 657, "alt": "Espaço reservado para imagem principal (1133 × 657)" },
+    "placeholder": {
+      "largura": 1133,
+      "altura": 657,
+      "alt": "Espaço reservado para imagem principal (1133 × 657)"
+    },
     "produtos": {
       "titulo": "O que atendemos",
       "texto": "Trabalhamos com princípios ativos de fármacos, não com medicamentos prontos e registrados na ANVISA, além de químicos aromáticos empregados como essências em perfumaria, agroquímicos, fertilizantes, produtos veterinários, produtos para piscina, higiene e limpeza, tintas e vernizes, enfim, todos os produtos químicos disponíveis no mercado interno e internacional que possuam um número CAS (Chemical Abstract Service).",
@@ -77,15 +118,29 @@
         "Tintas e vernizes"
       ]
     },
-    "servicos": { "titulo": "Nossos serviços" },
+    "servicos": {
+      "titulo": "Nossos serviços"
+    },
     "diferenciais": {
       "titulo": "Diferenciais",
       "texto": "Trabalhamos com as melhores práticas de análise qualitativa e quantitativa do mercado. Tudo para garantir Laudos Técnicos confiáveis acerca dos produtos químicos comercializados por nossa empresa, com o emprego de modernas técnicas de espectrometria.",
       "itens": [
-        { "titulo": "Qualidade garantida", "icone": "escudo" },
-        { "titulo": "Preço justo", "icone": "etiqueta" },
-        { "titulo": "Rapidez na entrega", "icone": "relogio" },
-        { "titulo": "Laudos técnicos confiáveis", "icone": "documento" }
+        {
+          "titulo": "Qualidade garantida",
+          "icone": "escudo"
+        },
+        {
+          "titulo": "Preço justo",
+          "icone": "etiqueta"
+        },
+        {
+          "titulo": "Rapidez na entrega",
+          "icone": "relogio"
+        },
+        {
+          "titulo": "Laudos técnicos confiáveis",
+          "icone": "documento"
+        }
       ]
     },
     "contatoRapido": {
@@ -109,7 +164,11 @@
         "Atendemos toda a linha de reagentes laboratoriais e matérias primas de química fina, ainda que seja impossível adquiri-los no mercado nacional.",
         "Necessitamos apenas do CAS (Chemical Abstract Service) para que possamos acionar nossos contatos internacionais, a fim de adquirir com rapidez e preços competitivos o produto químico ou princípio ativo químico-farmacêutico que você necessita, com qualidade garantida."
       ],
-      "placeholder": { "largura": 504, "altura": 282, "alt": "Espaço reservado para imagem de Importação (504 × 282)" }
+      "placeholder": {
+        "largura": 504,
+        "altura": 282,
+        "alt": "Espaço reservado para imagem de Importação (504 × 282)"
+      }
     },
     {
       "slug": "comercio",
@@ -123,7 +182,12 @@
         "Comercializamos toda linha de produtos químicos e matérias primas químico-farmacêuticas, além de qualquer reagente necessário à sua empresa, laboratório, farmácia de manipulação ou empreendimento pessoal, observadas as restrições legais referentes aos produtos químicos controlados.",
         "Não oferecemos uma lista de produtos e preços pré-definida porque trabalhamos com TODOS os produtos químicos disponíveis no mercado internacional, os quais sofrem variações diárias de preços em função do dólar americano. Entre em contato e faça uma cotação em um prazo máximo de 48 horas."
       ],
-      "placeholder": { "largura": 255, "altura": 256, "alt": "Espaço reservado para imagem de Comércio (255 × 256)" }
+      "placeholder": {
+        "largura": 255,
+        "altura": 256,
+        "alt": "Espaço reservado para imagem de Comércio (255 × 256)"
+      },
+      "notaConflito": "TODO: CONFIRMAR COM O CLIENTE — A página Comércio diz \"Não oferecemos uma lista de produtos e preços pré-definida...\". Agora existe uma lista exemplificativa e não exaustiva. Proposta de redação: acrescentar \"veja nossa relação de reagentes em estoque\" com link para /lista-de-produtos-e-precos/, sem remover o texto original até haver aprovação."
     },
     {
       "slug": "reembalagem",
@@ -146,7 +210,11 @@
         "prazo de validade",
         "advertências legais"
       ],
-      "placeholder": { "largura": 463, "altura": 338, "alt": "Espaço reservado para imagem de Reembalagem (463 × 338)" }
+      "placeholder": {
+        "largura": 463,
+        "altura": 338,
+        "alt": "Espaço reservado para imagem de Reembalagem (463 × 338)"
+      }
     },
     {
       "slug": "revenda",
@@ -160,7 +228,11 @@
         "Revendemos produtos químicos e princípios ativos químico-farmacêuticos a preços competitivos e com prazos que superam a concorrência.",
         "Temos ciência de que nossos clientes não podem ficar esperando eternamente por prazos exorbitantes para a chegada de seus reagentes, afinal, tempo é dinheiro."
       ],
-      "placeholder": { "largura": 342, "altura": 342, "alt": "Espaço reservado para imagem de Revenda (342 × 342)" }
+      "placeholder": {
+        "largura": 342,
+        "altura": 342,
+        "alt": "Espaço reservado para imagem de Revenda (342 × 342)"
+      }
     },
     {
       "slug": "sintese",
@@ -173,7 +245,11 @@
       "paragrafos": [
         "Somos empresa com sede física, Laboratório de Química Fina e Farmacêutica. Sintetizamos, se necessário, in loco, o produto químico que você necessita, para melhor custo-benefício de sua aquisição, com qualidade controlada pelas melhores práticas de análise química qualitativa e quantitativa, com base em modernas técnicas de espectrometria. Respeitadas as restrições legais relativas a produtos controlados."
       ],
-      "placeholder": { "largura": 444, "altura": 332, "alt": "Espaço reservado para imagem de Síntese (444 × 332)" }
+      "placeholder": {
+        "largura": 444,
+        "altura": 332,
+        "alt": "Espaço reservado para imagem de Síntese (444 × 332)"
+      }
     },
     {
       "slug": "fracionamento",
@@ -188,26 +264,61 @@
         "Trabalhamos com macro e micro escala, não temos restrições.",
         "Tudo com embalagem e rotulagem profissionais."
       ],
-      "placeholder": { "largura": 464, "altura": 343, "alt": "Espaço reservado para imagem de Fracionamento (464 × 343)" }
+      "placeholder": {
+        "largura": 464,
+        "altura": 343,
+        "alt": "Espaço reservado para imagem de Fracionamento (464 × 343)"
+      }
     }
   ],
   "paginas": {
+    "404": {
+      "titulo": "Página não encontrada",
+      "seoTitulo": "Página não encontrada | Chemi Pharma",
+      "seoDescricao": "A página que você procurou não foi encontrada.",
+      "texto": "Verifique o endereço ou volte para a página inicial.",
+      "botao": "Ir para a Home"
+    },
     "nossos-servicos": {
       "titulo": "Nossos serviços",
       "seoTitulo": "Nossos serviços | Chemi Pharma",
       "seoDescricao": "Importação, comércio, reembalagem, revenda, síntese e fracionamento de produtos químicos e princípios ativos químico-farmacêuticos."
     },
     "lista-de-produtos-e-precos": {
-      "titulo": "Lista de Produtos e preços",
-      "seoTitulo": "Lista de produtos e preços | Chemi Pharma",
-      "seoDescricao": "Não há lista fixa: os preços variam com o dólar. Busque por nome ou número CAS e peça sua cotação à Chemi Pharma.",
+      "titulo": "Relação de reagentes e preços",
+      "seoTitulo": "Relação de reagentes e preços | Chemi Pharma",
+      "seoDescricao": "Relação de reagentes químicos disponíveis em estoque a pronta entrega com preços de venda na Chemi Pharma. Solicite orçamento via WhatsApp.",
+      "dataAtualizacao": "2026-08-30",
+      "dataExibicao": "30/08/2026",
+      "seloData": "Relação atualizada em 30/08/2026",
+      "heroApoio": "Consulte os reagentes químicos em estoque a pronta entrega e seus respectivos preços de venda.",
       "paragrafos": [
-        "Não oferecemos uma lista de produtos e preços pré-definida porque trabalhamos com TODOS os produtos químicos disponíveis no mercado internacional, os quais sofrem variações diárias de preços em função do dólar americano. Entre em contato e faça uma cotação em um prazo máximo de 48 horas."
+        "Trabalhamos com mais de 10 mil reagentes químicos com número CAS conhecido dentre aqueles disponibilizados pelos grandes fornecedores nacionais, tais como Neon, Dinâmica Química, Êxodo Científica, Merck e Sigma Aldrich, por laboratórios parceiros na Alemanha, Inglaterra, EUA e China, sem contar aqueles que sintetizamos em laboratório a pedido do cliente, a depender da complexidade da molécula química.",
+        "Isso, somado ao fato de que os preços dos reagentes químicos estão sujeitos a flutuações que acompanham a variação do dólar americano, o preço dos insumos e também influências externas, tais fatos podem acarretar certa defasagem na atualização dos produtos e preços aqui expostos.",
+        "Abaixo se encontram listados os reagentes químicos disponíveis em estoque a pronta entrega e seus respectivos preços de venda aos clientes. Essa lista é exemplificativa e não exaustiva. Trabalhamos com fracionamento de reagentes químicos e também atendemos pedidos de quantidades maiores que aquelas listadas abaixo. Os reagentes não listados abaixo podem ser encomendados através de nosso canal oficial de vendas no WhatsApp (61) 98424-1187."
       ],
+      "comoComprar": {
+        "titulo": "Como comprar",
+        "itens": [
+          "Compras somente através do nosso canal oficial de vendas no WhatsApp.",
+          "Pagamento adiantado via Pix ou cartão de crédito, à vista ou parcelado em até 12x com juros baixos cobrados pelo Mercado Pago.",
+          "Despachamos somente através dos Correios.",
+          "Não atendemos presencialmente o público externo.",
+          "Os preços listados não incluem o valor do frete (PAC ou Sedex dos Correios, a ser escolhido pelo cliente), que deve ser calculado na hora da compra ou apurado previamente através de orçamento on-line, sem compromisso, via WhatsApp, pois depende do peso e do volume da mercadoria."
+        ]
+      },
+      "avisoLegal": "Comercialização sujeita às restrições legais aplicáveis a produtos químicos controlados.",
+      "pendenciaAvisoLegal": "TODO: validar com jurídico/cliente",
+      "ctaNaoEncontrou": {
+        "titulo": "Não encontrou o reagente? Peça um orçamento.",
+        "texto": "Trabalhamos com encomendas de reagentes especiais, outras embalagens e síntese sob medida.",
+        "botaoWhatsapp": "Consultar no WhatsApp",
+        "botaoContato": "Outras formas de contato"
+      },
       "busca": {
-        "rotulo": "Nome do produto ou número CAS",
-        "botao": "Solicitar cotação",
-        "placeholder": "Ex.: nome do produto ou CAS"
+        "rotulo": "Buscar reagente",
+        "placeholder": "Ex.: acetona, ácido nítrico, cloreto, 500 mL...",
+        "botaoLimpar": "Limpar"
       }
     },
     "contacto": {
@@ -219,13 +330,55 @@
         "botaoWhatsapp": "Enviar por WhatsApp",
         "botaoEmail": "Enviar por e-mail",
         "campos": [
-          { "id": "nome", "rotulo": "Nome", "tipo": "text", "obrigatorio": true, "autocomplete": "name" },
-          { "id": "empresa", "rotulo": "Empresa", "tipo": "text", "obrigatorio": false, "autocomplete": "organization" },
-          { "id": "email", "rotulo": "E-mail", "tipo": "email", "obrigatorio": true, "autocomplete": "email" },
-          { "id": "telefone", "rotulo": "Telefone/WhatsApp", "tipo": "tel", "obrigatorio": false, "autocomplete": "tel" },
-          { "id": "produto", "rotulo": "Produto e/ou número CAS", "tipo": "text", "obrigatorio": true, "autocomplete": "off" },
-          { "id": "quantidade", "rotulo": "Quantidade", "tipo": "text", "obrigatorio": false, "autocomplete": "off" },
-          { "id": "mensagem", "rotulo": "Mensagem", "tipo": "textarea", "obrigatorio": false, "autocomplete": "off" }
+          {
+            "id": "nome",
+            "rotulo": "Nome",
+            "tipo": "text",
+            "obrigatorio": true,
+            "autocomplete": "name"
+          },
+          {
+            "id": "empresa",
+            "rotulo": "Empresa",
+            "tipo": "text",
+            "obrigatorio": false,
+            "autocomplete": "organization"
+          },
+          {
+            "id": "email",
+            "rotulo": "E-mail",
+            "tipo": "email",
+            "obrigatorio": true,
+            "autocomplete": "email"
+          },
+          {
+            "id": "telefone",
+            "rotulo": "Telefone/WhatsApp",
+            "tipo": "tel",
+            "obrigatorio": false,
+            "autocomplete": "tel"
+          },
+          {
+            "id": "produto",
+            "rotulo": "Produto e/ou número CAS",
+            "tipo": "text",
+            "obrigatorio": true,
+            "autocomplete": "off"
+          },
+          {
+            "id": "quantidade",
+            "rotulo": "Quantidade",
+            "tipo": "text",
+            "obrigatorio": false,
+            "autocomplete": "off"
+          },
+          {
+            "id": "mensagem",
+            "rotulo": "Mensagem",
+            "tipo": "textarea",
+            "obrigatorio": false,
+            "autocomplete": "off"
+          }
         ]
       },
       "pendencias": [
@@ -236,23 +389,65 @@
       "titulo": "Quem Somos",
       "seoTitulo": "Quem somos | Chemi Pharma",
       "seoDescricao": "Conheça a Chemi Pharma, laboratório de química fina e farmacêutica em Brasília-DF.",
-      "paragrafos": ["TODO: CONFIRMAR COM O CLIENTE"],
-      "placeholder": { "largura": 504, "altura": 282, "alt": "Espaço reservado para imagem (504 × 282)" }
+      "paragrafos": [
+        "TODO: CONFIRMAR COM O CLIENTE"
+      ],
+      "placeholder": {
+        "largura": 504,
+        "altura": 282,
+        "alt": "Espaço reservado para imagem (504 × 282)"
+      }
     },
     "parcerias": {
       "titulo": "Parcerias",
       "seoTitulo": "Parcerias | Chemi Pharma",
       "seoDescricao": "Parcerias da Chemi Pharma, laboratório de química fina e farmacêutica em Brasília-DF.",
-      "paragrafos": ["TODO: CONFIRMAR COM O CLIENTE"],
-      "placeholder": { "largura": 504, "altura": 282, "alt": "Espaço reservado para imagem (504 × 282)" }
+      "paragrafos": [
+        "TODO: CONFIRMAR COM O CLIENTE"
+      ],
+      "placeholder": {
+        "largura": 504,
+        "altura": 282,
+        "alt": "Espaço reservado para imagem (504 × 282)"
+      }
     },
     "em-breve": "Conteúdo em breve.",
-    "404": {
-      "titulo": "Página não encontrada",
-      "seoTitulo": "Página não encontrada | Chemi Pharma",
-      "seoDescricao": "A página que você procurou não foi encontrada.",
-      "texto": "Verifique o endereço ou volte para a página inicial.",
-      "botao": "Ir para a Home"
+    "listaProdutos": {
+      "titulo": "Relação de reagentes e preços",
+      "seoTitulo": "Relação de reagentes e preços | Chemi Pharma",
+      "seoDescricao": "Relação de reagentes químicos disponíveis em estoque a pronta entrega com preços de venda na Chemi Pharma. Solicite orçamento via WhatsApp.",
+      "dataAtualizacao": "2026-08-30",
+      "dataExibicao": "30/08/2026",
+      "seloData": "Relação atualizada em 30/08/2026",
+      "heroApoio": "Consulte os reagentes químicos em estoque a pronta entrega e seus respectivos preços de venda.",
+      "paragrafos": [
+        "Trabalhamos com mais de 10 mil reagentes químicos com número CAS conhecido dentre aqueles disponibilizados pelos grandes fornecedores nacionais, tais como Neon, Dinâmica Química, Êxodo Científica, Merck e Sigma Aldrich, por laboratórios parceiros na Alemanha, Inglaterra, EUA e China, sem contar aqueles que sintetizamos em laboratório a pedido do cliente, a depender da complexidade da molécula química.",
+        "Isso, somado ao fato de que os preços dos reagentes químicos estão sujeitos a flutuações que acompanham a variação do dólar americano, o preço dos insumos e também influências externas, tais fatos podem acarretar certa defasagem na atualização dos produtos e preços aqui expostos.",
+        "Abaixo se encontram listados os reagentes químicos disponíveis em estoque a pronta entrega e seus respectivos preços de venda aos clientes. Essa lista é exemplificativa e não exaustiva. Trabalhamos com fracionamento de reagentes químicos e também atendemos pedidos de quantidades maiores que aquelas listadas abaixo. Os reagentes não listados abaixo podem ser encomendados através de nosso canal oficial de vendas no WhatsApp (61) 98424-1187."
+      ],
+      "comoComprar": {
+        "titulo": "Como comprar",
+        "itens": [
+          "Compras somente através do nosso canal oficial de vendas no WhatsApp.",
+          "Pagamento adiantado via Pix ou cartão de crédito, à vista ou parcelado em até 12x com juros baixos cobrados pelo Mercado Pago.",
+          "Despachamos somente através dos Correios.",
+          "Não atendemos presencialmente o público externo.",
+          "Os preços listados não incluem o valor do frete (PAC ou Sedex dos Correios, a ser escolhido pelo cliente), que deve ser calculado na hora da compra ou apurado previamente através de orçamento on-line, sem compromisso, via WhatsApp, pois depende do peso e do volume da mercadoria."
+        ]
+      },
+      "avisoLegal": "Comercialização sujeita às restrições legais aplicáveis a produtos químicos controlados.",
+      "pendenciaAvisoLegal": "TODO: validar com jurídico/cliente",
+      "ctaNaoEncontrou": {
+        "titulo": "Não encontrou o reagente? Peça um orçamento.",
+        "texto": "Trabalhamos com encomendas de reagentes especiais, outras embalagens e síntese sob medida.",
+        "botaoWhatsapp": "Consultar no WhatsApp",
+        "botaoContato": "Outras formas de contato"
+      },
+      "busca": {
+        "rotulo": "Buscar reagente",
+        "placeholder": "Ex.: acetona, ácido nítrico, cloreto, 500 mL...",
+        "botaoLimpar": "Limpar"
+      }
     }
   }
 }

@@ -1,18 +1,232 @@
-    <section class="hero hero--interna">
+    <section class="hero hero--interna hero--produtos">
       <div class="container">
+        <div class="hero__cabecalho-produtos">
+          <span class="selo-data">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            {{seloData}}
+          </span>
+        </div>
         <h1>{{titulo}}</h1>
-{{{paragrafos}}}
+        <p class="lead hero__lead-produtos">{{heroApoio}}</p>
+        <div class="hero__acoes-produtos">
+          <a class="btn btn--whatsapp" href="{{whatsappUrl}}" target="_blank" rel="noopener">
+            {{{iconeWhatsapp}}}
+            <span>Atendimento no WhatsApp</span>
+          </a>
+        </div>
       </div>
     </section>
 
-    <section class="secao">
+    <!-- Parágrafos explicativos colapsáveis -->
+    <section class="secao secao--suave secao--informacoes-estoque">
       <div class="container">
-        <form class="busca" action="{{acao}}" method="get" role="search">
-          <label for="busca-produto">{{rotulo}}</label>
-          <div class="busca__linha">
-            <input id="busca-produto" name="produto" type="search" placeholder="{{placeholder}}" autocomplete="off" required>
-            <button class="btn btn--primario" type="submit">{{botao}}</button>
+        <details class="produtos-explicacao" open>
+          <summary class="produtos-explicacao__toggle">
+            <span class="produtos-explicacao__titulo">Sobre o estoque, pronta entrega e flutuações cambiais</span>
+            <span class="produtos-explicacao__icone" aria-hidden="true">▾</span>
+          </summary>
+          <div class="produtos-explicacao__corpo">
+            {{{paragrafosHtml}}}
           </div>
-        </form>
+        </details>
+      </div>
+    </section>
+
+    <!-- Bloco Como Comprar -->
+    <section class="secao secao--como-comprar">
+      <div class="container">
+        <div class="card-como-comprar">
+          <div class="card-como-comprar__cabecalho">
+            <svg class="card-como-comprar__icone-topo" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+            <h2>{{comoComprarTitulo}}</h2>
+          </div>
+          <ul class="lista-como-comprar">
+            <li class="item-como-comprar">
+              <span class="item-como-comprar__icone" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.78 14.07c-.24.68-1.2 1.25-1.72 1.3-.47.05-1.07.07-3.14-.77-2.65-1.08-4.35-3.79-4.48-3.97-.13-.18-1.07-1.42-1.07-2.71 0-1.29.68-1.92.92-2.18.24-.26.53-.33.71-.33.18 0 .36 0 .51.01.17.01.39-.06.61.46.24.57.81 1.98.88 2.13.07.15.12.33.02.53-.1.2-.15.33-.3.51-.15.18-.31.4-.45.54-.15.15-.31.32-.13.62.18.3 1.05 1.73 2.26 2.81 1.55 1.38 2.86 1.81 3.27 2.01.41.2.66.18.91-.11.25-.29 1.07-1.25 1.36-1.68.29-.43.58-.36.97-.22.39.14 2.48 1.17 2.91 1.38.43.21.71.31.81.49.1.18.1.98-.14 1.66z"/></svg>
+              </span>
+              <span><strong>Canal exclusivo de compras:</strong> somente através do nosso canal oficial de vendas no WhatsApp.</span>
+            </li>
+            <li class="item-como-comprar">
+              <span class="item-como-comprar__icone" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+              </span>
+              <span><strong>Formas de pagamento:</strong> pagamento adiantado via Pix ou cartão de crédito, à vista ou parcelado em até 12x com juros baixos cobrados pelo Mercado Pago.</span>
+            </li>
+            <li class="item-como-comprar">
+              <span class="item-como-comprar__icone" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+              </span>
+              <span><strong>Envio seguro:</strong> despachamos somente através dos Correios em embalagens técnicas adequadas.</span>
+            </li>
+            <li class="item-como-comprar">
+              <span class="item-como-comprar__icone" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18"></path><path d="M6 6l12 12"></path></svg>
+              </span>
+              <span><strong>Atendimento:</strong> não atendemos presencialmente o público externo; operação exclusivamente remota.</span>
+            </li>
+            <li class="item-como-comprar">
+              <span class="item-como-comprar__icone" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+              </span>
+              <span><strong>Frete e cálculo:</strong> os preços listados não incluem frete (PAC ou Sedex, à escolha do cliente), calculado no momento da compra ou apurado previamente via WhatsApp conforme peso e volume.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Barra de Ferramentas Fixa / Sticky da Lista -->
+    <section class="secao-toolbar-produtos" id="secao-busca-produtos">
+      <div class="container">
+        <div class="toolbar-produtos" id="toolbar-produtos">
+          
+          <div class="toolbar-produtos__busca">
+            <label for="busca-reagente" class="sr-only">{{buscaRotulo}}</label>
+            <div class="campo-busca-wrapper">
+              <svg class="campo-busca-icone" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input id="busca-reagente" type="search" placeholder="{{buscaPlaceholder}}" autocomplete="off" spellcheck="false">
+              <button type="button" id="btn-limpar-busca" class="btn-limpar-busca" aria-label="Limpar termo de busca" hidden>&times;</button>
+            </div>
+          </div>
+
+          <div class="toolbar-produtos__filtros">
+            
+            <div class="filtro-campo">
+              <label for="filtro-grau" class="filtro-rotulo">Grau:</label>
+              <select id="filtro-grau" class="filtro-select">
+                <option value="todos">Todos os graus</option>
+                <option value="P.A. ACS">P.A. ACS</option>
+                <option value="P.A.">P.A.</option>
+                <option value="P.S.">P.S.</option>
+                <option value="Puro">Puro</option>
+                <option value="Grau USP">Grau USP</option>
+                <option value="Grau técnico">Grau técnico</option>
+                <option value="P.A. ACS ISO">P.A. ACS ISO</option>
+                <option value="sem-grau">Sem grau informado</option>
+              </select>
+            </div>
+
+            <div class="filtro-campo">
+              <label for="filtro-embalagem" class="filtro-rotulo">Embalagem:</label>
+              <select id="filtro-embalagem" class="filtro-select">
+                <option value="todos">Todas as embalagens</option>
+                <option value="solido">Sólidos (g)</option>
+                <option value="liquido">Líquidos (mL / L)</option>
+              </select>
+            </div>
+
+            <div class="filtro-campo filtro-campo--preco">
+              <span class="filtro-rotulo">Preço:</span>
+              <div class="preco-inputs">
+                <label for="filtro-preco-min" class="sr-only">Preço mínimo</label>
+                <span class="moeda-prefixo" aria-hidden="true">R$</span>
+                <input id="filtro-preco-min" type="number" min="49" max="899" placeholder="49" step="10">
+                <span class="preco-separador" aria-hidden="true">a</span>
+                <label for="filtro-preco-max" class="sr-only">Preço máximo</label>
+                <span class="moeda-prefixo" aria-hidden="true">R$</span>
+                <input id="filtro-preco-max" type="number" min="49" max="899" placeholder="899" step="10">
+              </div>
+            </div>
+
+            <div class="filtro-campo">
+              <label for="ordem-produtos" class="filtro-rotulo">Ordem:</label>
+              <select id="ordem-produtos" class="filtro-select">
+                <option value="nome-asc">A → Z (Nome)</option>
+                <option value="nome-desc">Z → A (Nome)</option>
+                <option value="preco-asc">Menor preço</option>
+                <option value="preco-desc">Maior preço</option>
+              </select>
+            </div>
+
+            <div class="filtro-campo filtro-campo--reset">
+              <button type="button" id="btn-reset-filtros" class="btn btn--texto btn--sm">Resetar filtros</button>
+            </div>
+
+          </div>
+
+          <div class="toolbar-produtos__status">
+            <div id="contador-resultados" class="contador-resultados" aria-live="polite">
+              Exibindo 312 de 312 reagentes
+            </div>
+          </div>
+
+          <!-- Índice Alfabético A-Z -->
+          <nav id="indice-az" class="indice-az" aria-label="Navegação alfabética pelos reagentes">
+            <span class="indice-az__rotulo">Ir para letra:</span>
+            <div class="indice-az__letras" id="letras-az-container">
+              <!-- Botões de letra gerados dinamicamente ou pré-renderizados -->
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Lista / Tabela Pré-renderizada -->
+    <section class="secao secao--tabela-produtos">
+      <div class="container">
+        
+        <div class="tabela-scroll-wrapper" tabindex="0" role="region" aria-label="Tabela de relação de reagentes químicos e preços">
+          <table id="tabela-produtos" class="tabela-produtos">
+            <caption class="sr-only">Relação completa de reagentes químicos e preços disponíveis em estoque na Chemi Pharma</caption>
+            <thead>
+              <tr>
+                <th scope="col" class="th-reagente">Reagente químico</th>
+                <th scope="col" class="th-grau">Grau</th>
+                <th scope="col" class="th-embalagem">Embalagem</th>
+                <th scope="col" class="th-preco">Preço (R$)</th>
+                <th scope="col" class="th-acao"><span class="sr-only">Ação</span></th>
+              </tr>
+            </thead>
+            <tbody id="tbody-produtos">
+{{{linhasTabelaHtml}}}
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Estado Sem Resultados -->
+        <div id="sem-resultados" class="sem-resultados" hidden>
+          <div class="sem-resultados__icone" aria-hidden="true">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+          </div>
+          <h3>Nenhum reagente encontrado</h3>
+          <p>Não encontramos nenhum produto correspondente aos termos ou filtros selecionados. Trabalhamos com mais de 10 mil reagentes e podemos cotar o reagente desejado sob encomenda.</p>
+          <div class="sem-resultados__acoes">
+            <a id="btn-sem-resultados-wa" class="btn btn--whatsapp" href="{{whatsappUrl}}" target="_blank" rel="noopener">
+              {{{iconeWhatsapp}}}
+              <span>Consultar este reagente no WhatsApp</span>
+            </a>
+            <a id="btn-sem-resultados-contato" class="btn btn--secundario" href="{{urlContato}}">
+              <span>Pedir orçamento pelo formulário</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Aviso Legal do Rodapé da Lista -->
+        <div class="aviso-legal-produtos">
+          <svg class="aviso-legal-icone" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+          <p>{{avisoLegal}}</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Seção CTA Final: Reagente não listado -->
+    <section class="secao secao--escura cta-reagente-nao-listado">
+      <div class="container cta-reagente-nao-listado__grid">
+        <div class="cta-reagente-nao-listado__texto">
+          <h2>{{ctaNaoEncontrouTitulo}}</h2>
+          <p>{{ctaNaoEncontrouTexto}}</p>
+        </div>
+        <div class="cta-reagente-nao-listado__botoes">
+          <a class="btn btn--cta" href="{{whatsappUrl}}" target="_blank" rel="noopener">
+            {{{iconeWhatsapp}}}
+            <span>{{ctaNaoEncontrouBtnWa}}</span>
+          </a>
+          <a class="btn btn--outline-claro" href="{{urlContato}}">
+            <span>{{ctaNaoEncontrouBtnContato}}</span>
+          </a>
+        </div>
       </div>
     </section>

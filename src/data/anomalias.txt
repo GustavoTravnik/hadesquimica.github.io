@@ -1,0 +1,9 @@
+linha 15: ACIDO ACETICO GLACIAL NA CONCENTRAÇÃO DE 30% -> ácido acético glacial a 30% é inconsistente — confirmar
+linha 16: ACIDO ACETICO GLACIAL P.A ACS 99,8% -> preço sem "R$" na origem
+linha 132: CLORETO DE METILENO P.A ACS (DICLOROMETANO) -> mais de uma embalagem na mesma linha
+linha 163: ETER ETILICO P.A -> mais de uma embalagem na mesma linha
+linha 192: GLICINA PA ACS (ACIDO AMINO ACETICO) -> sólido listado em mL (provável erro de unidade) — confirmar
+linha 228: 4'METIL PROPIOFENONA -> espaço extra no início da linha
+linha 231: MOLIBDATO DE AMONEO (4H2O) PA ACS -> possível erro de digitação: "AMONEO" (amônio) — confirmar
+linha 264: PERCLORATO DE POTÁSSIO P.A -> preço sem "R$" na origem
+linha 291: SULFATO DE SODIO ANIDRO PA ACS -> sem separador *** na origem
