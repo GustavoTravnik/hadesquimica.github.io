@@ -99,11 +99,6 @@
     "seoTitulo": "Chemi Pharma | Produtos químicos e farmacêuticos",
     "seoDescricao": "Reagentes, matérias-primas e princípios ativos químico-farmacêuticos com qualidade garantida, preço justo e rapidez na entrega. Peça seu orçamento.",
     "texto1": "Garantia de qualidade com preço justo e rapidez na entrega de seu produto. Atendemos toda a linha de reagentes laboratoriais e matérias primas que sua empresa, laboratório, farmácia de manipulação ou empreendimento pessoal necessitar, ainda que impossível adquiri-lo no Brasil.",
-    "placeholder": {
-      "largura": 1133,
-      "altura": 657,
-      "alt": "Espaço reservado para imagem principal (1133 × 657)"
-    },
     "produtos": {
       "titulo": "O que atendemos",
       "texto": "Trabalhamos com princípios ativos de fármacos, não com medicamentos prontos e registrados na ANVISA, além de químicos aromáticos empregados como essências em perfumaria, agroquímicos, fertilizantes, produtos veterinários, produtos para piscina, higiene e limpeza, tintas e vernizes, enfim, todos os produtos químicos disponíveis no mercado interno e internacional que possuam um número CAS (Chemical Abstract Service).",
@@ -149,7 +144,13 @@
     },
     "pendencias": [
       "TODO: CONFIRMAR COM O CLIENTE – a Home original pode ter outros blocos de conteúdo não coletados."
-    ]
+    ],
+    "imagem": {
+      "arquivo": "home.jpg",
+      "largura": 1133,
+      "altura": 657,
+      "alt": "Laboratório químico e analítico com vidrarias especializadas e reagentes"
+    }
   },
   "servicos": [
     {
@@ -164,10 +165,11 @@
         "Atendemos toda a linha de reagentes laboratoriais e matérias primas de química fina, ainda que seja impossível adquiri-los no mercado nacional.",
         "Necessitamos apenas do CAS (Chemical Abstract Service) para que possamos acionar nossos contatos internacionais, a fim de adquirir com rapidez e preços competitivos o produto químico ou princípio ativo químico-farmacêutico que você necessita, com qualidade garantida."
       ],
-      "placeholder": {
+      "imagem": {
+        "arquivo": "importacao.jpg",
         "largura": 504,
         "altura": 282,
-        "alt": "Espaço reservado para imagem de Importação (504 × 282)"
+        "alt": "Importação e transporte internacional de reagentes químicos de alta pureza"
       }
     },
     {
@@ -182,12 +184,13 @@
         "Comercializamos toda linha de produtos químicos e matérias primas químico-farmacêuticas, além de qualquer reagente necessário à sua empresa, laboratório, farmácia de manipulação ou empreendimento pessoal, observadas as restrições legais referentes aos produtos químicos controlados.",
         "Não oferecemos uma lista de produtos e preços pré-definida porque trabalhamos com TODOS os produtos químicos disponíveis no mercado internacional, os quais sofrem variações diárias de preços em função do dólar americano. Entre em contato e faça uma cotação em um prazo máximo de 48 horas."
       ],
-      "placeholder": {
+      "notaConflito": "TODO: CONFIRMAR COM O CLIENTE — A página Comércio diz \"Não oferecemos uma lista de produtos e preços pré-definida...\". Agora existe uma lista exemplificativa e não exaustiva. Proposta de redação: acrescentar \"veja nossa relação de reagentes em estoque\" com link para /lista-de-produtos-e-precos/, sem remover o texto original até haver aprovação.",
+      "imagem": {
+        "arquivo": "comercio.jpg",
         "largura": 255,
         "altura": 256,
-        "alt": "Espaço reservado para imagem de Comércio (255 × 256)"
-      },
-      "notaConflito": "TODO: CONFIRMAR COM O CLIENTE — A página Comércio diz \"Não oferecemos uma lista de produtos e preços pré-definida...\". Agora existe uma lista exemplificativa e não exaustiva. Proposta de redação: acrescentar \"veja nossa relação de reagentes em estoque\" com link para /lista-de-produtos-e-precos/, sem remover o texto original até haver aprovação."
+        "alt": "Comércio e pronta entrega de reagentes químicos e insumos de laboratório"
+      }
     },
     {
       "slug": "reembalagem",
@@ -210,10 +213,11 @@
         "prazo de validade",
         "advertências legais"
       ],
-      "placeholder": {
+      "imagem": {
+        "arquivo": "reembalagem.jpg",
         "largura": 463,
         "altura": 338,
-        "alt": "Espaço reservado para imagem de Reembalagem (463 × 338)"
+        "alt": "Processo de reembalagem técnica e segura de produtos químicos em sala limpa"
       }
     },
     {
@@ -228,10 +232,11 @@
         "Revendemos produtos químicos e princípios ativos químico-farmacêuticos a preços competitivos e com prazos que superam a concorrência.",
         "Temos ciência de que nossos clientes não podem ficar esperando eternamente por prazos exorbitantes para a chegada de seus reagentes, afinal, tempo é dinheiro."
       ],
-      "placeholder": {
+      "imagem": {
+        "arquivo": "revenda.jpg",
         "largura": 342,
         "altura": 342,
-        "alt": "Espaço reservado para imagem de Revenda (342 × 342)"
+        "alt": "Estoque organizado para revenda e distribuição de insumos químicos industriais"
       }
     },
     {
@@ -245,10 +250,11 @@
       "paragrafos": [
         "Somos empresa com sede física, Laboratório de Química Fina e Farmacêutica. Sintetizamos, se necessário, in loco, o produto químico que você necessita, para melhor custo-benefício de sua aquisição, com qualidade controlada pelas melhores práticas de análise química qualitativa e quantitativa, com base em modernas técnicas de espectrometria. Respeitadas as restrições legais relativas a produtos controlados."
       ],
-      "placeholder": {
+      "imagem": {
+        "arquivo": "sintese.jpg",
         "largura": 444,
         "altura": 332,
-        "alt": "Espaço reservado para imagem de Síntese (444 × 332)"
+        "alt": "Síntese química e desenvolvimento de formulações customizadas em laboratório"
       }
     },
     {
@@ -264,10 +270,11 @@
         "Trabalhamos com macro e micro escala, não temos restrições.",
         "Tudo com embalagem e rotulagem profissionais."
       ],
-      "placeholder": {
+      "imagem": {
+        "arquivo": "fracionamento.jpg",
         "largura": 464,
         "altura": 343,
-        "alt": "Espaço reservado para imagem de Fracionamento (464 × 343)"
+        "alt": "Fracionamento e dosagem de precisão de reagentes químicos em capela de exaustão"
       }
     }
   ],
@@ -392,10 +399,11 @@
       "paragrafos": [
         "TODO: CONFIRMAR COM O CLIENTE"
       ],
-      "placeholder": {
+      "imagem": {
+        "arquivo": "quienes-somos.jpg",
         "largura": 504,
         "altura": 282,
-        "alt": "Espaço reservado para imagem (504 × 282)"
+        "alt": "Equipe de especialistas e instalações laboratoriais da Chemi Pharma"
       }
     },
     "parcerias": {
@@ -405,10 +413,11 @@
       "paragrafos": [
         "TODO: CONFIRMAR COM O CLIENTE"
       ],
-      "placeholder": {
+      "imagem": {
+        "arquivo": "parcerias.jpg",
         "largura": 504,
         "altura": 282,
-        "alt": "Espaço reservado para imagem (504 × 282)"
+        "alt": "Parcerias estratégicas e cooperação comercial no setor químico-farmacêutico"
       }
     },
     "em-breve": "Conteúdo em breve.",

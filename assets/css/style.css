@@ -113,6 +113,8 @@ a:hover { text-decoration-thickness: 2px; }
 .logo__texto { font-size: 20px; font-weight: 700; letter-spacing: .2px; }
 .ph--logo { width: 120px; font-size: 14px; border-radius: 8px; display: none; }
 @media (min-width: 480px) { .ph--logo { display: grid; } }
+.logo__img { width: 120px; height: 40px; border-radius: 6px; object-fit: contain; display: none; }
+@media (min-width: 480px) { .logo__img { display: block; } }
 .cabecalho .btn { min-height: 44px; padding: 8px 16px; font-size: 14px; }
 
 .nav { order: 3; width: 100%; }
@@ -192,6 +194,15 @@ a:hover { text-decoration-thickness: 2px; }
   max-width: calc(var(--w) * 1px); aspect-ratio: var(--w) / var(--h);
   background: var(--cor-placeholder); color: var(--cor-placeholder-texto);
   font-weight: 600; border-radius: var(--raio-card);
+}
+.hero__foto {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--raio-card);
+  box-shadow: var(--sombra);
+  object-fit: cover;
 }
 
 /* ---------- Seções ---------- */

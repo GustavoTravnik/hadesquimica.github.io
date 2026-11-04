@@ -56,6 +56,15 @@ const hrefDe = (raiz, slug) => raiz + (slug ? `${slug}/` : '');
 const cta = (raiz, destino = 'contacto') =>
   render(modelo('cta'), { href: hrefDe(raiz, destino), rotulo: c.ui.cta }).trim();
 const ph = (p) => render(modelo('placeholder'), p).trim();
+const renderImagem = (img, raiz, eager = false) => {
+  if (!img) return '';
+  if (img.arquivo) {
+    const src = `${raiz}assets/img/${img.arquivo}`;
+    const loadingAttr = eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
+    return `<img class="hero__foto" src="${src}" alt="${esc(img.alt)}" width="${img.largura}" height="${img.altura}" ${loadingAttr} decoding="async">`;
+  }
+  return ph(img);
+};
 
 function menu(raiz, atual) {
   const subAtivo = c.servicos.some((s) => s.slug === atual);
@@ -121,7 +130,7 @@ function paginaHome(raiz) {
     titulo: h.titulo,
     texto1: h.texto1,
     cta: cta(raiz),
-    imagem: ph(h.placeholder),
+    imagem: renderImagem(h.imagem ?? h.placeholder, raiz, true),
     produtosTitulo: h.produtos.titulo,
     produtosTexto: h.produtos.texto,
     categorias: h.produtos.categorias.map((t) => `          <li>${icone('check')}<span>${esc(t)}</span></li>`).join('\n'),
@@ -152,7 +161,7 @@ function paginaServico(raiz, s) {
       ? `          <ul class="lista-check">\n${s.lista.map((t) => `            <li>${icone('check')}<span>${esc(t)}</span></li>`).join('\n')}\n          </ul>`
       : '',
     cta: cta(raiz),
-    imagem: ph(s.placeholder),
+    imagem: renderImagem(s.imagem ?? s.placeholder, raiz, false),
     outrosTitulo: c.ui.outrosServicos,
     outros: c.servicos
       .filter((o) => o.slug !== s.slug)
@@ -224,7 +233,7 @@ function paginaSimples(raiz, p) {
   const corpo = [paragrafos(p.paragrafos, 'lead')];
   // Enquanto só houver TODOs, mostra o aviso neutro (permitido como texto de interface).
   if (p.paragrafos.every(ehPendencia)) corpo.push(`<p class="lead">${esc(c.paginas['em-breve'])}</p>`);
-  return render(modelo('simples'), { titulo: p.titulo, corpo: corpo.filter(Boolean).join('\n'), cta: cta(raiz), imagem: ph(p.placeholder) });
+  return render(modelo('simples'), { titulo: p.titulo, corpo: corpo.filter(Boolean).join('\n'), cta: cta(raiz), imagem: renderImagem(p.imagem ?? p.placeholder, raiz, false) });
 }
 
 // ---------- definição das páginas ----------
