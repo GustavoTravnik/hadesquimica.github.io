@@ -267,4 +267,60 @@
   // Preenche "produto/CAS" a partir de ?produto= (vindo da Lista de Produtos).
   const produto = new URLSearchParams(location.search).get('produto');
   if (produto) form.elements.produto.value = produto.slice(0, 200);
+
+  // ---------- Posicionamento do Webchat ao lado do ícone do WhatsApp ----------
+  const aplicarEstiloWebchat = () => {
+    const host = document.getElementById('supia-webchat-host');
+    if (!host || !host.shadowRoot) return false;
+    if (host.shadowRoot.getElementById('supia-posicionamento-wa')) return true;
+
+    const style = document.createElement('style');
+    style.id = 'supia-posicionamento-wa';
+    style.textContent = `
+      .supia-fab {
+        right: 76px !important;
+        bottom: 16px !important;
+        width: 48px !important;
+        height: 48px !important;
+      }
+      .supia-window {
+        right: 16px !important;
+        bottom: 76px !important;
+      }
+      @media (max-width: 440px) {
+        .supia-window {
+          right: 12px !important;
+          bottom: 76px !important;
+          width: calc(100vw - 24px) !important;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .supia-fab:hover {
+          transform: none !important;
+        }
+      }
+    `;
+    host.shadowRoot.appendChild(style);
+    return true;
+  };
+
+  if (!aplicarEstiloWebchat()) {
+    const observer = new MutationObserver(() => {
+      if (aplicarEstiloWebchat()) {
+        observer.disconnect();
+      }
+    });
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+
+    const intervalo = setInterval(() => {
+      if (aplicarEstiloWebchat()) {
+        clearInterval(intervalo);
+        observer.disconnect();
+      }
+    }, 250);
+    setTimeout(() => {
+      clearInterval(intervalo);
+      observer.disconnect();
+    }, 10000);
+  }
 })();
