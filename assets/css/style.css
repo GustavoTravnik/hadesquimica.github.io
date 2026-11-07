@@ -171,30 +171,15 @@ a:hover { text-decoration-thickness: 2px; }
   .cabecalho__interno { flex-wrap: nowrap; }
   .logo { margin-right: 8px; }
   .nav { order: 0; width: auto; margin-left: auto; }
-  .nav__lista { display: flex; align-items: center; gap: 4px; }
-  .nav a {
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 12px;
-    line-height: 1.2;
-    border-radius: 6px;
-    border-bottom: 2px solid transparent;
-  }
-  .nav a:hover {
-    background: rgba(255, 255, 255, .08);
-    border-bottom-color: var(--cor-secundaria);
-  }
-  .nav a[aria-current="page"] {
-    background: rgba(255, 255, 255, .12);
-    border-bottom-color: var(--cor-secundaria);
-  }
+  .nav__lista { display: flex; gap: 4px; }
+  .nav a { padding: 24px 10px 21px; }
   .js .nav-toggle { display: none; }
   .js .nav { display: block; padding: 0; }
-  .nav__item--sub { position: relative; display: inline-flex; align-items: center; }
-  .nav__item--sub > a { flex: none; padding-right: 4px; }
-  .nav__sub-botao { display: inline-flex; width: 28px; height: 28px; padding: 0; }
+  .nav__item--sub { flex-wrap: nowrap; }
+  .nav__item--sub > a { flex: none; padding-right: 0; }
+  .nav__sub-botao { width: 32px; }
   .nav__sub {
-    display: none; position: absolute; top: calc(100% + 8px); left: 0; z-index: 10;
+    display: none; position: absolute; top: 100%; left: 0; z-index: 10;
     width: 240px; padding: 8px; background: #fff; border-radius: var(--raio-card); box-shadow: var(--sombra-forte);
   }
   .nav__sub a { color: var(--cor-primaria); padding: 10px 12px; border-radius: 6px; border-bottom: 0; }
@@ -418,31 +403,9 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: #B3261
   border-radius: var(--raio-card);
   box-shadow: var(--sombra-forte);
   overflow: hidden;
-  box-sizing: border-box;
 }
 .chat-painel[hidden] {
   display: none !important;
-}
-
-@media (max-width: 600px) {
-  .chat-painel {
-    right: 8px;
-    left: 8px;
-    bottom: 84px;
-    width: auto;
-    max-height: calc(100dvh - 96px);
-    border-radius: 12px;
-  }
-  .widgets-flutuantes {
-    right: 12px;
-    bottom: 12px;
-    gap: 8px;
-  }
-  .whatsapp-flutuante,
-  .chat-flutuante {
-    width: 48px;
-    height: 48px;
-  }
 }
 .chat-painel__cabecalho {
   display: flex;
