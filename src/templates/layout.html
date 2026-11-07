@@ -21,16 +21,16 @@
   <script>document.documentElement.className = 'js';</script>
   {{{jsonld}}}
 </head>
-<body class="{{classeCorpo}}">
+<body class="{{classeCorpo}}" data-raiz="{{raiz}}" data-pagina="{{atual}}">
   <a class="pular" href="#conteudo">{{pular}}</a>
-{{{cabecalho}}}
-  <main id="conteudo" tabindex="-1">
+  <header id="site-header" class="cabecalho"></header>
+  <main id="conteudo" class="corpo-pagina" tabindex="-1">
 {{{conteudo}}}
   </main>
-{{{rodape}}}
-  <a class="whatsapp-flutuante" href="{{whatsappUrl}}" target="_blank" rel="noopener" aria-label="{{whatsappRotulo}}">
-    {{{iconeWhatsapp}}}
-  </a>
+  <footer id="site-footer" class="rodape"></footer>
+  <div id="site-widgets"></div>
+  <script src="{{raiz}}assets/js/layout.js" defer></script>
+  <script src="{{raiz}}assets/js/widgets.js" defer></script>
   <script src="{{raiz}}assets/js/main.js" defer></script>
 </body>
 </html>

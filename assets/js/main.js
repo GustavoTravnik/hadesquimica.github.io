@@ -1,86 +1,10 @@
-// Chemi Pharma – comportamento do site. Sem dependências.
+// Chemi Pharma – comportamentos específicos do corpo (<main>) das páginas.
+// Header, Footer e Navegação ficam em assets/js/layout.js.
+// Chat Rápido e WhatsApp Flutuante ficam em assets/js/widgets.js.
 (() => {
   'use strict';
 
   const reduzMovimento = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const desktop = window.matchMedia('(min-width: 960px)');
-
-  // ---------- Ano do rodapé ----------
-  document.querySelectorAll('[data-ano]').forEach((el) => {
-    el.textContent = new Date().getFullYear();
-  });
-
-  // ---------- Menu (hambúrguer + submenu) ----------
-  const botaoMenu = document.querySelector('.nav-toggle');
-  const nav = document.getElementById('menu-principal');
-  const itensSub = [...document.querySelectorAll('.nav__item--sub')];
-
-  const alternarSub = (item, abrir) => {
-    const botao = item.querySelector('.nav__sub-botao');
-    item.classList.toggle('is-aberto', abrir);
-    botao.setAttribute('aria-expanded', String(abrir));
-  };
-  const fecharSubs = (exceto) => itensSub.forEach((i) => i !== exceto && alternarSub(i, false));
-  const alternarMenu = (abrir) => {
-    nav.classList.toggle('is-aberto', abrir);
-    botaoMenu.setAttribute('aria-expanded', String(abrir));
-    if (!abrir) fecharSubs();
-  };
-
-  if (botaoMenu && nav) {
-    botaoMenu.addEventListener('click', () => alternarMenu(!nav.classList.contains('is-aberto')));
-  }
-  itensSub.forEach((item) => {
-    const botao = item.querySelector('.nav__sub-botao');
-    botao.addEventListener('click', () => {
-      const abrir = !item.classList.contains('is-aberto');
-      fecharSubs(item);
-      alternarSub(item, abrir);
-    });
-    // Fecha o submenu quando o foco sai do item (navegação por Tab).
-    item.addEventListener('focusout', (e) => {
-      if (desktop.matches && !item.contains(e.relatedTarget)) alternarSub(item, false);
-    });
-  });
-
-  // Esc fecha menu/submenu e devolve o foco ao controle que o abriu.
-  document.addEventListener('keydown', (e) => {
-    if (e.key !== 'Escape') return;
-    const subAberto = itensSub.find((i) => i.classList.contains('is-aberto'));
-    if (subAberto) {
-      alternarSub(subAberto, false);
-      subAberto.querySelector('.nav__sub-botao').focus();
-    } else if (nav && nav.classList.contains('is-aberto')) {
-      alternarMenu(false);
-      botaoMenu.focus();
-    }
-  });
-
-  // Clique fora fecha tudo.
-  document.addEventListener('click', (e) => {
-    if (e.target.closest('.cabecalho')) return;
-    fecharSubs();
-    if (nav && nav.classList.contains('is-aberto')) alternarMenu(false);
-  });
-
-  // Ao ir para o desktop, reinicia o estado do menu móvel.
-  desktop.addEventListener('change', () => nav && alternarMenu(false));
-
-  // ---------- Rolagem suave para #âncoras (fecha o menu móvel ao navegar) ----------
-  document.addEventListener('click', (e) => {
-    const link = e.target.closest('a[href*="#"]');
-    if (!link || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey) return;
-    const url = new URL(link.href, location.href);
-    if (url.origin !== location.origin || url.pathname !== location.pathname || !url.hash) return;
-    const alvo = document.getElementById(decodeURIComponent(url.hash.slice(1)));
-    if (!alvo) return;
-    e.preventDefault();
-    alvo.scrollIntoView({ behavior: reduzMovimento.matches ? 'auto' : 'smooth', block: 'start' });
-    history.pushState(null, '', url.hash);
-    if (!alvo.hasAttribute('tabindex')) alvo.setAttribute('tabindex', '-1');
-    alvo.focus({ preventScroll: true });
-    if (nav && nav.classList.contains('is-aberto')) alternarMenu(false);
-  });
 
   // ---------- Lista de Produtos e Preços ----------
   const tabelaProdutos = document.getElementById('tabela-produtos');

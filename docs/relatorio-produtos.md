@@ -1,6 +1,6 @@
 # Relatório de Auditoria e Normalização da Relação de Produtos e Preços
 
-> **Data de geração:** 2026-11-04  
+> **Data de geração:** 2026-11-07  
 > **Base de dados:** `src/data/produtos.json` (derivado de `src/data/produtos-raw.txt`)  
 > **Total de itens:** 312  
 > **Total de variantes de embalagem/preço:** 314  

@@ -46,6 +46,11 @@ for (const arq of arquivos) {
   const h1 = (html.match(/<h1[\s>]/g) || []).length;
   if (h1 !== 1) erro(nome, `${h1} elementos <h1> (esperado 1)`);
 
+  // containers compartilhados obrigatórios (header, body/main, footer e widgets)
+  for (const idObrigatorio of ['site-header', 'conteudo', 'site-footer', 'site-widgets']) {
+    if (!ids.get(arq)?.has(idObrigatorio)) erro(nome, `container compartilhado #${idObrigatorio} ausente`);
+  }
+
   // imagens sem alt / placeholders sem aria-label
   for (const m of html.matchAll(/<img\b[^>]*>/g)) if (!/\salt="/.test(m[0])) erro(nome, `<img> sem alt: ${m[0]}`);
   for (const m of html.matchAll(/<div class="ph"[^>]*>/g)) if (!/aria-label="[^"]+"/.test(m[0])) erro(nome, 'placeholder sem aria-label');
@@ -67,7 +72,7 @@ for (const arq of arquivos) {
 }
 
 // arquivos obrigatórios
-for (const f of ['CNAME', '.nojekyll', 'robots.txt', 'sitemap.xml', 'favicon.svg', '404.html', 'index.html']) {
+for (const f of ['CNAME', '.nojekyll', 'robots.txt', 'sitemap.xml', 'favicon.svg', '404.html', 'index.html', 'assets/js/layout.js', 'assets/js/widgets.js', 'assets/js/main.js']) {
   if (!existsSync(join(RAIZ, f))) erro(f, 'arquivo obrigatório ausente');
 }
 

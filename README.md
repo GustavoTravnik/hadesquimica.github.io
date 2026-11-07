@@ -11,11 +11,13 @@ o HTML gerado fica commitado, então o GitHub Pages serve direto, sem GitHub Act
 ```
 CNAME  .nojekyll  index.html  404.html  robots.txt  sitemap.xml  favicon.svg   # raiz publicada
 <slug>/index.html          # páginas GERADAS (não edite à mão)
-assets/css/style.css       # tokens de design em :root + estilos
-assets/js/main.js          # menu, formulário, âncoras, ano do rodapé
+assets/css/style.css       # tokens de design em :root + estilos (header, body, footer e widgets)
+assets/js/layout.js        # injeção e comportamento compartilhados do Header e do Footer (gerado no build)
+assets/js/widgets.js       # injeção e comportamento compartilhados do Chat Rápido e WhatsApp (gerado no build)
+assets/js/main.js          # comportamentos específicos do corpo (<main>): tabela de produtos e formulário
 src/content.json           # TODO o conteúdo (única fonte da verdade) + flags
 src/icones.json            # ícones SVG inline
-src/templates/*.html       # layout, header, footer, páginas e componentes (marcadores {{x}} / {{{html}}})
+src/templates/*.html       # layout, header, footer, widgets, páginas e componentes (marcadores {{x}} / {{{html}}})
 scripts/build.mjs          # gerador            scripts/dev.mjs    # servidor local
 scripts/check.mjs          # verificações
 ```

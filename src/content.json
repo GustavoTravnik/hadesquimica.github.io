@@ -91,7 +91,38 @@
     "outrosServicos": "Outros serviços",
     "pular": "Pular para o conteúdo",
     "logoAlt": "Espaço reservado para o logotipo da Chemi Pharma",
-    "whatsappFlutuante": "Falar pelo WhatsApp"
+    "whatsappFlutuante": "Falar pelo WhatsApp",
+    "chat": {
+      "botaoRotulo": "Abrir chat de atendimento rápido",
+      "titulo": "Atendimento Chemi Pharma",
+      "subtitulo": "Online • Resposta rápida",
+      "boasVindas": "Olá! Bem-vindo à Chemi Pharma. Como podemos ajudar seu laboratório ou empresa hoje?",
+      "placeholder": "Digite o nome do reagente, nº CAS ou sua dúvida...",
+      "enviarWhatsapp": "Continuar no WhatsApp",
+      "verCatalogo": "Consultar tabela de preços",
+      "opcoesRapidas": [
+        {
+          "rotulo": "Cotar reagente / CAS",
+          "resposta": "Informe abaixo o nome do reagente ou número CAS e a quantidade desejada. Em seguida, clique em 'Continuar no WhatsApp' para receber sua cotação prioritária.",
+          "prefill": "Olá, gostaria de cotar o seguinte reagente/CAS: "
+        },
+        {
+          "rotulo": "Importação e Síntese",
+          "resposta": "Realizamos importação direta de química fina e síntese sob encomenda com controle espectrométrico. Descreva sua necessidade abaixo para falarmos com nosso setor técnico.",
+          "prefill": "Olá, preciso de informações sobre importação/síntese para: "
+        },
+        {
+          "rotulo": "Fracionamento e Reembalagem",
+          "resposta": "Atendemos fracionamento em macro e micro escala (de 1 g/mL a 1 kg/L) com rotulagem completa. Qual produto e volume você procura?",
+          "prefill": "Olá, tenho interesse no serviço de fracionamento/reembalagem: "
+        },
+        {
+          "rotulo": "Falar com especialista",
+          "resposta": "Nossa equipe comercial e técnica está pronta para atender você. Digite sua mensagem abaixo ou inicie a conversa diretamente pelo WhatsApp.",
+          "prefill": "Olá, gostaria de falar com um especialista da Chemi Pharma."
+        }
+      ]
+    }
   },
   "home": {
     "slug": "",

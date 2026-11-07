@@ -21,43 +21,10 @@
   <script>document.documentElement.className = 'js';</script>
   
 </head>
-<body class="pagina-interna">
+<body class="pagina-interna" data-raiz="../" data-pagina="reembalagem">
   <a class="pular" href="#conteudo">Pular para o conteúdo</a>
-  <header class="cabecalho">
-    <div class="container cabecalho__interno">
-      <a class="logo" href="../">
-        <img class="logo__img" src="../assets/img/logo.jpg" alt="Espaço reservado para o logotipo da Chemi Pharma" width="180" height="60" decoding="async">
-        <span class="logo__texto">Chemi Pharma</span>
-      </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu">
-        <span class="nav-toggle__barras" aria-hidden="true"></span>
-      </button>
-      <nav id="menu-principal" class="nav" aria-label="Principal">
-        <ul class="nav__lista">
-          <li><a href="../">Home</a></li>
-          <li><a href="../quienes-somos/">Quem Somos</a></li>
-          <li><a href="../lista-de-produtos-e-precos/">Lista de Produtos e preços</a></li>
-          <li class="nav__item--sub is-ativo">
-            <a href="../nossos-servicos/">Nossos serviços</a>
-            <button class="nav__sub-botao" type="button" aria-expanded="false" aria-controls="submenu-servicos" aria-label="Submenu de Nossos serviços"><svg class="icone" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></button>
-            <ul id="submenu-servicos" class="nav__sub">
-              <li><a href="../importacao/">Importação</a></li>
-              <li><a href="../comercio/">Comércio</a></li>
-              <li><a href="../reembalagem/" aria-current="page">Reembalagem</a></li>
-              <li><a href="../revenda/">Revenda</a></li>
-              <li><a href="../sintese/">Síntese</a></li>
-              <li><a href="../fracionamento/">Fracionamento</a></li>
-            </ul>
-          </li>
-          <li><a href="../parcerias/">Parcerias</a></li>
-          <li><a href="../contacto/">Contato</a></li>
-        </ul>
-      </nav>
-      <a class="btn btn--cta" href="../contacto/">FAÇA SEU ORÇAMENTO</a>
-    </div>
-  </header>
-
-  <main id="conteudo" tabindex="-1">
+  <header id="site-header" class="cabecalho"></header>
+  <main id="conteudo" class="corpo-pagina" tabindex="-1">
     <section class="hero hero--interna">
       <div class="container grade hero__grade">
         <div class="col col-md-7 hero__texto">
@@ -95,43 +62,10 @@
     </section>
 
   </main>
-  <footer class="rodape">
-    <div class="container">
-      <div class="grade rodape__grade">
-        <div class="col col-md-4">
-          <p class="rodape__marca">Chemi Pharma</p>
-          <p>Núcleo Rural Rio Preto, Chácara nº 23 – Planaltina, Brasília-DF</p>
-          
-        </div>
-        <nav class="col col-md-4" aria-label="Rodapé">
-          <h2 class="rodape__titulo">Navegação</h2>
-          <ul class="rodape__lista">
-            <li><a href="../">Home</a></li>
-            <li><a href="../quienes-somos/">Quem Somos</a></li>
-            <li><a href="../nossos-servicos/">Nossos serviços</a></li>
-            <li><a href="../parcerias/">Parcerias</a></li>
-            <li><a href="../contacto/">Contato</a></li>
-            <li><a href="../lista-de-produtos-e-precos/">Lista de Produtos e Preços</a></li>
-          </ul>
-        </nav>
-        <div class="col col-md-4">
-          <h2 class="rodape__titulo">Contato</h2>
-          <ul class="rodape__lista">
-            <li><a href="mailto:hadesquimica@chemipharma.com.br">hadesquimica@chemipharma.com.br</a></li>
-            <li><a href="https://api.whatsapp.com/send?phone=5561984241187&amp;text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">WhatsApp (61) 98424-1187</a></li>
-          </ul>
-          
-        </div>
-      </div>
-      <p class="rodape__aviso">Comercialização sujeita às restrições legais aplicáveis a produtos químicos controlados.</p>
-      
-      <p class="rodape__copy">© <span data-ano>2026</span> Chemi Pharma</p>
-    </div>
-  </footer>
-
-  <a class="whatsapp-flutuante" href="https://api.whatsapp.com/send?phone=5561984241187&amp;text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
-    <svg class="icone" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-.9.7a4 4 0 0 1-1.8-1.8l.7-.9-1-2z"/></svg>
-  </a>
+  <footer id="site-footer" class="rodape"></footer>
+  <div id="site-widgets"></div>
+  <script src="../assets/js/layout.js" defer></script>
+  <script src="../assets/js/widgets.js" defer></script>
   <script src="../assets/js/main.js" defer></script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 // Gerador do site estático da Chemi Pharma (Node >= 18, sem dependências npm).
-// Lê src/content.json + src/templates/*.html e escreve os index.html, 404.html,
-// sitemap.xml e robots.txt na raiz do repositório. Idempotente.
+// Lê src/content.json + src/templates/*.html e escreve:
+// - assets/js/layout.js (Header e Footer compartilhados)
+// - assets/js/widgets.js (Widget de Chat e Botão do WhatsApp compartilhados)
+// - index.html, <slug>/index.html, 404.html, sitemap.xml e robots.txt na raiz.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -66,18 +68,18 @@ const renderImagem = (img, raiz, eager = false) => {
   return ph(img);
 };
 
-function menu(raiz, atual) {
-  const subAtivo = c.servicos.some((s) => s.slug === atual);
+const TOKEN_RAIZ = '__RAIZ__';
+
+function menuCompartilhado(raizToken) {
   return c.menu
     .map((it) => {
-      const href = hrefDe(raiz, it.slug);
-      const ativo = it.slug === atual;
-      const link = `<a href="${href}"${ativo ? ' aria-current="page"' : ''}>${esc(it.rotulo)}</a>`;
+      const href = hrefDe(raizToken, it.slug);
+      const link = `<a href="${href}" data-slug="${esc(it.slug)}">${esc(it.rotulo)}</a>`;
       if (!it.submenu) return `          <li>${link}</li>`;
       const subs = c.servicos
-        .map((s) => `<li><a href="${hrefDe(raiz, s.slug)}"${s.slug === atual ? ' aria-current="page"' : ''}>${esc(s.menu)}</a></li>`)
+        .map((s) => `<li><a href="${hrefDe(raizToken, s.slug)}" data-slug="${esc(s.slug)}">${esc(s.menu)}</a></li>`)
         .join('\n              ');
-      return `          <li class="nav__item--sub${subAtivo ? ' is-ativo' : ''}">
+      return `          <li class="nav__item--sub">
             ${link}
             <button class="nav__sub-botao" type="button" aria-expanded="false" aria-controls="submenu-servicos" aria-label="Submenu de ${esc(it.rotulo)}">${icone('seta')}</button>
             <ul id="submenu-servicos" class="nav__sub">
@@ -88,30 +90,299 @@ function menu(raiz, atual) {
     .join('\n');
 }
 
-const cabecalho = (raiz, atual) =>
+const cabecalhoCompartilhado = () =>
   render(modelo('header'), {
-    raiz,
+    raiz: TOKEN_RAIZ,
     logoAlt: c.ui.logoAlt,
     nomeEmpresa: emp.nome,
-    menu: menu(raiz, atual),
-    cta: cta(raiz),
+    menu: menuCompartilhado(TOKEN_RAIZ),
+    cta: cta(TOKEN_RAIZ),
   });
 
-const rodape = (raiz) =>
+const rodapeCompartilhado = () =>
   render(modelo('footer'), {
     nomeEmpresa: emp.nome,
     enderecoCurto: emp.endereco.curto,
     pendenciaEndereco: pendencia(emp.endereco.pendencia),
     pendenciaPabx: pendencia(emp.pabx.pendencia),
     pendenciaAviso: pendencia(emp.avisoLegalPendencia),
-    links: c.rodape.links.map((l) => `            <li><a href="${hrefDe(raiz, l.slug)}">${esc(l.rotulo)}</a></li>`).join('\n'),
+    links: c.rodape.links
+      .map((l) => `            <li><a href="${hrefDe(TOKEN_RAIZ, l.slug)}" data-slug="${esc(l.slug)}">${esc(l.rotulo)}</a></li>`)
+      .join('\n'),
     emailRodape: emp.emailRodape,
     whatsappUrl,
     whatsappExibicao: wa.exibicao,
     avisoLegal: emp.avisoLegal,
-    // Ano de fallback para quem está sem JS; o main.js atualiza em tempo de execução.
     ano: new Date().getFullYear(),
   });
+
+const widgetsCompartilhados = () => {
+  const chatCfg = c.ui.chat;
+  const chatOpcoes = chatCfg.opcoesRapidas
+    .map((op, i) => `          <button type="button" class="chat-opcao-btn" data-indice="${i}">${esc(op.rotulo)}</button>`)
+    .join('\n');
+  return render(modelo('widgets'), {
+    raiz: TOKEN_RAIZ,
+    chatTitulo: chatCfg.titulo,
+    chatSubtitulo: chatCfg.subtitulo,
+    chatBoasVindas: chatCfg.boasVindas,
+    chatPlaceholder: chatCfg.placeholder,
+    chatEnviarWhatsapp: chatCfg.enviarWhatsapp,
+    chatVerCatalogo: chatCfg.verCatalogo,
+    chatBotaoRotulo: chatCfg.botaoRotulo,
+    chatOpcoes,
+    whatsappUrl,
+    whatsappRotulo: c.ui.whatsappFlutuante,
+    iconeWhatsapp: icone('whatsapp'),
+    iconeChat: icone('chat'),
+    iconeFechar: icone('fechar'),
+    iconeEnviar: icone('enviar'),
+  });
+};
+
+function gerarScriptLayout() {
+  const servicosSlugs = c.servicos.map((s) => s.slug);
+  return `// Chemi Pharma – Header e Footer compartilhados em todas as páginas.
+// Arquivo gerado automaticamente por scripts/build.mjs a partir de src/templates/{header,footer}.html.
+(() => {
+  'use strict';
+
+  const HEADER_TPL = ${JSON.stringify(cabecalhoCompartilhado())};
+  const FOOTER_TPL = ${JSON.stringify(rodapeCompartilhado())};
+  const SERVICOS_SLUGS = new Set(${JSON.stringify(servicosSlugs)});
+
+  const body = document.body;
+  const raiz = body.dataset.raiz || './';
+  const paginaAtual = body.dataset.pagina ?? '';
+
+  const aplicarRaiz = (tpl) => tpl.replaceAll(${JSON.stringify(TOKEN_RAIZ)}, raiz);
+
+  const headerEl = document.getElementById('site-header');
+  if (headerEl) {
+    headerEl.innerHTML = aplicarRaiz(HEADER_TPL);
+    headerEl.querySelectorAll('a[data-slug]').forEach((link) => {
+      if (link.dataset.slug === paginaAtual) {
+        link.setAttribute('aria-current', 'page');
+      }
+    });
+    if (SERVICOS_SLUGS.has(paginaAtual)) {
+      const subItem = headerEl.querySelector('.nav__item--sub');
+      if (subItem) subItem.classList.add('is-ativo');
+    }
+  }
+
+  const footerEl = document.getElementById('site-footer');
+  if (footerEl) {
+    footerEl.innerHTML = aplicarRaiz(FOOTER_TPL);
+    footerEl.querySelectorAll('[data-ano]').forEach((el) => {
+      el.textContent = new Date().getFullYear();
+    });
+  }
+
+  // ---------- Comportamento do Menu (hambúrguer + submenu) ----------
+  const reduzMovimento = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const desktop = window.matchMedia('(min-width: 960px)');
+  const botaoMenu = document.querySelector('.nav-toggle');
+  const nav = document.getElementById('menu-principal');
+  const itensSub = [...document.querySelectorAll('.nav__item--sub')];
+
+  const alternarSub = (item, abrir) => {
+    const botao = item.querySelector('.nav__sub-botao');
+    item.classList.toggle('is-aberto', abrir);
+    if (botao) botao.setAttribute('aria-expanded', String(abrir));
+  };
+  const fecharSubs = (exceto) => itensSub.forEach((i) => i !== exceto && alternarSub(i, false));
+  const alternarMenu = (abrir) => {
+    if (!nav || !botaoMenu) return;
+    nav.classList.toggle('is-aberto', abrir);
+    botaoMenu.setAttribute('aria-expanded', String(abrir));
+    if (!abrir) fecharSubs();
+  };
+
+  if (botaoMenu && nav) {
+    botaoMenu.addEventListener('click', () => alternarMenu(!nav.classList.contains('is-aberto')));
+  }
+  itensSub.forEach((item) => {
+    const botao = item.querySelector('.nav__sub-botao');
+    if (botao) {
+      botao.addEventListener('click', () => {
+        const abrir = !item.classList.contains('is-aberto');
+        fecharSubs(item);
+        alternarSub(item, abrir);
+      });
+    }
+    item.addEventListener('focusout', (e) => {
+      if (desktop.matches && !item.contains(e.relatedTarget)) alternarSub(item, false);
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    const subAberto = itensSub.find((i) => i.classList.contains('is-aberto'));
+    if (subAberto) {
+      alternarSub(subAberto, false);
+      subAberto.querySelector('.nav__sub-botao')?.focus();
+    } else if (nav && nav.classList.contains('is-aberto')) {
+      alternarMenu(false);
+      botaoMenu?.focus();
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('.cabecalho')) return;
+    fecharSubs();
+    if (nav && nav.classList.contains('is-aberto')) alternarMenu(false);
+  });
+
+  desktop.addEventListener('change', () => nav && alternarMenu(false));
+
+  // ---------- Rolagem suave para #âncoras ----------
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a[href*="#"]');
+    if (!link || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    const url = new URL(link.href, location.href);
+    if (url.origin !== location.origin || url.pathname !== location.pathname || !url.hash) return;
+    const alvo = document.getElementById(decodeURIComponent(url.hash.slice(1)));
+    if (!alvo) return;
+    e.preventDefault();
+    alvo.scrollIntoView({ behavior: reduzMovimento.matches ? 'auto' : 'smooth', block: 'start' });
+    history.pushState(null, '', url.hash);
+    if (!alvo.hasAttribute('tabindex')) alvo.setAttribute('tabindex', '-1');
+    alvo.focus({ preventScroll: true });
+    if (nav && nav.classList.contains('is-aberto')) alternarMenu(false);
+  });
+})();
+`;
+}
+
+function gerarScriptWidgets() {
+  const chatCfg = c.ui.chat;
+  return `// Chemi Pharma – Scripts compartilhados de Chat Rápido e WhatsApp Flutuante.
+// Arquivo gerado automaticamente por scripts/build.mjs a partir de src/templates/widgets.html.
+(() => {
+  'use strict';
+
+  const WIDGETS_TPL = ${JSON.stringify(widgetsCompartilhados())};
+  const WHATSAPP_NUMERO = ${JSON.stringify(wa.numero)};
+  const WHATSAPP_MSG_PADRAO = ${JSON.stringify(wa.mensagem)};
+  const OPCOES_RAPIDAS = ${JSON.stringify(chatCfg.opcoesRapidas)};
+
+  const body = document.body;
+  const raiz = body.dataset.raiz || './';
+  const container = document.getElementById('site-widgets');
+  if (!container) return;
+
+  container.innerHTML = WIDGETS_TPL.replaceAll(${JSON.stringify(TOKEN_RAIZ)}, raiz);
+
+  const painel = document.getElementById('painel-chat');
+  const btnAbrir = document.getElementById('btn-abrir-chat');
+  const btnFechar = document.getElementById('chat-fechar');
+  const mensagensEl = document.getElementById('chat-mensagens');
+  const opcoesEl = document.getElementById('chat-opcoes');
+  const form = document.getElementById('chat-form');
+  const input = document.getElementById('chat-input');
+  const linkWhatsapp = document.getElementById('chat-ir-whatsapp');
+  const linkCatalogo = document.getElementById('chat-ver-catalogo');
+  const badge = btnAbrir?.querySelector('.chat-flutuante__badge');
+
+  let prefixoAtual = '';
+  let ultimaMensagemUsuario = '';
+
+  const montarUrlWhatsapp = (texto) => {
+    const msg = (texto || WHATSAPP_MSG_PADRAO).trim();
+    return \`https://api.whatsapp.com/send?phone=\${WHATSAPP_NUMERO}&text=\${encodeURIComponent(msg)}\`;
+  };
+
+  const atualizarLinksAcao = () => {
+    const digitado = input ? input.value.trim() : '';
+    const baseTexto = digitado || ultimaMensagemUsuario;
+    const textoFinal = baseTexto
+      ? (prefixoAtual ? \`\${prefixoAtual}\${baseTexto}\` : baseTexto)
+      : (prefixoAtual || WHATSAPP_MSG_PADRAO);
+    if (linkWhatsapp) {
+      linkWhatsapp.href = montarUrlWhatsapp(textoFinal);
+    }
+    if (linkCatalogo) {
+      linkCatalogo.href = baseTexto
+        ? \`\${raiz}lista-de-produtos-e-precos/?q=\${encodeURIComponent(baseTexto)}\`
+        : \`\${raiz}lista-de-produtos-e-precos/\`;
+    }
+  };
+
+  const adicionarMensagem = (texto, tipo) => {
+    if (!mensagensEl) return;
+    const div = document.createElement('div');
+    div.className = \`chat-msg chat-msg--\${tipo}\`;
+    const p = document.createElement('p');
+    p.textContent = texto;
+    div.appendChild(p);
+    mensagensEl.appendChild(div);
+    mensagensEl.scrollTop = mensagensEl.scrollHeight;
+  };
+
+  const alternarChat = (abrir) => {
+    if (!painel || !btnAbrir) return;
+    const vaiAbrir = typeof abrir === 'boolean' ? abrir : painel.hidden;
+    painel.hidden = !vaiAbrir;
+    btnAbrir.setAttribute('aria-expanded', String(vaiAbrir));
+    btnAbrir.classList.toggle('is-ativo', vaiAbrir);
+    if (vaiAbrir) {
+      if (badge) badge.hidden = true;
+      setTimeout(() => input?.focus(), 50);
+    } else {
+      btnAbrir.focus();
+    }
+  };
+
+  btnAbrir?.addEventListener('click', () => alternarChat());
+  btnFechar?.addEventListener('click', () => alternarChat(false));
+
+  opcoesEl?.addEventListener('click', (e) => {
+    const btn = e.target.closest('.chat-opcao-btn');
+    if (!btn) return;
+    const idx = Number(btn.dataset.indice);
+    const op = OPCOES_RAPIDAS[idx];
+    if (!op) return;
+    adicionarMensagem(op.rotulo, 'usuario');
+    adicionarMensagem(op.resposta, 'bot');
+    prefixoAtual = op.prefill || '';
+    atualizarLinksAcao();
+    input?.focus();
+  });
+
+  input?.addEventListener('input', atualizarLinksAcao);
+
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const texto = input ? input.value.trim() : '';
+    if (!texto) {
+      input?.focus();
+      return;
+    }
+    ultimaMensagemUsuario = texto;
+    adicionarMensagem(texto, 'usuario');
+    input.value = '';
+    atualizarLinksAcao();
+    adicionarMensagem(
+      \`Recebemos sua solicitação sobre "\${texto}". Clique em "Continuar no WhatsApp" abaixo para atendimento imediato com nossa equipe ou consulte na tabela de preços.\`,
+      'bot'
+    );
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && painel && !painel.hidden) {
+      alternarChat(false);
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!painel || painel.hidden) return;
+    if (e.target.closest('#site-widgets')) return;
+    alternarChat(false);
+  });
+})();
+`;
+}
 
 const cardServico = (raiz, s) =>
   render(modelo('card-servico'), {
@@ -283,15 +554,11 @@ function montar({ slug, raiz, atual, seo, classe, corpo, jsonld, noindex, canoni
     ogUrl: canonical ? `<meta property="og:url" content="${urlDe(slug)}">` : '',
     nomeEmpresa: emp.nome,
     raiz,
+    atual,
     jsonld: jsonld ? jsonLd() : '',
     classeCorpo: classe,
     pular: c.ui.pular,
-    cabecalho: cabecalho(raiz, atual),
     conteudo: corpo(raiz),
-    rodape: rodape(raiz),
-    whatsappUrl,
-    whatsappRotulo: c.ui.whatsappFlutuante,
-    iconeWhatsapp: icone('whatsapp'),
   });
 }
 
@@ -300,6 +567,10 @@ const escrever = (rel, texto) => {
   mkdirSync(dirname(destino), { recursive: true });
   writeFileSync(destino, texto.endsWith('\n') ? texto : texto + '\n');
 };
+
+// Gera os scripts compartilhados (header, footer, chat e whatsapp)
+escrever('assets/js/layout.js', gerarScriptLayout());
+escrever('assets/js/widgets.js', gerarScriptWidgets());
 
 for (const p of paginas) {
   const raiz = p.depth ? '../' : './';
@@ -328,4 +599,4 @@ escrever('robots.txt', c.indexavel
 // Relatório automático da lista de produtos e pendências para o cliente
 gerarRelatorioProdutos();
 
-console.log(`Build ok: ${paginas.length} páginas + 404.html | indexável: ${c.indexavel} | pendências visíveis: ${c.mostrarPendencias}`);
+console.log(`Build ok: ${paginas.length} páginas + 404.html + layout.js + widgets.js | indexável: ${c.indexavel} | pendências visíveis: ${c.mostrarPendencias}`);
