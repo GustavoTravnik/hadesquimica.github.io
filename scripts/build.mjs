@@ -117,26 +117,11 @@ const rodapeCompartilhado = () =>
   });
 
 const widgetsCompartilhados = () => {
-  const chatCfg = c.ui.chat;
-  const chatOpcoes = chatCfg.opcoesRapidas
-    .map((op, i) => `          <button type="button" class="chat-opcao-btn" data-indice="${i}">${esc(op.rotulo)}</button>`)
-    .join('\n');
   return render(modelo('widgets'), {
     raiz: TOKEN_RAIZ,
-    chatTitulo: chatCfg.titulo,
-    chatSubtitulo: chatCfg.subtitulo,
-    chatBoasVindas: chatCfg.boasVindas,
-    chatPlaceholder: chatCfg.placeholder,
-    chatEnviarWhatsapp: chatCfg.enviarWhatsapp,
-    chatVerCatalogo: chatCfg.verCatalogo,
-    chatBotaoRotulo: chatCfg.botaoRotulo,
-    chatOpcoes,
     whatsappUrl,
     whatsappRotulo: c.ui.whatsappFlutuante,
     iconeWhatsapp: icone('whatsapp'),
-    iconeChat: icone('chat'),
-    iconeFechar: icone('fechar'),
-    iconeEnviar: icone('enviar'),
   });
 };
 
@@ -256,130 +241,18 @@ function gerarScriptLayout() {
 }
 
 function gerarScriptWidgets() {
-  const chatCfg = c.ui.chat;
-  return `// Chemi Pharma – Scripts compartilhados de Chat Rápido e WhatsApp Flutuante.
+  return `// Chemi Pharma – Script compartilhado de WhatsApp Flutuante.
 // Arquivo gerado automaticamente por scripts/build.mjs a partir de src/templates/widgets.html.
 (() => {
   'use strict';
 
   const WIDGETS_TPL = ${JSON.stringify(widgetsCompartilhados())};
-  const WHATSAPP_NUMERO = ${JSON.stringify(wa.numero)};
-  const WHATSAPP_MSG_PADRAO = ${JSON.stringify(wa.mensagem)};
-  const OPCOES_RAPIDAS = ${JSON.stringify(chatCfg.opcoesRapidas)};
-
   const body = document.body;
   const raiz = body.dataset.raiz || './';
   const container = document.getElementById('site-widgets');
   if (!container) return;
 
   container.innerHTML = WIDGETS_TPL.replaceAll(${JSON.stringify(TOKEN_RAIZ)}, raiz);
-
-  const painel = document.getElementById('painel-chat');
-  const btnAbrir = document.getElementById('btn-abrir-chat');
-  const btnFechar = document.getElementById('chat-fechar');
-  const mensagensEl = document.getElementById('chat-mensagens');
-  const opcoesEl = document.getElementById('chat-opcoes');
-  const form = document.getElementById('chat-form');
-  const input = document.getElementById('chat-input');
-  const linkWhatsapp = document.getElementById('chat-ir-whatsapp');
-  const linkCatalogo = document.getElementById('chat-ver-catalogo');
-  const badge = btnAbrir?.querySelector('.chat-flutuante__badge');
-
-  let prefixoAtual = '';
-  let ultimaMensagemUsuario = '';
-
-  const montarUrlWhatsapp = (texto) => {
-    const msg = (texto || WHATSAPP_MSG_PADRAO).trim();
-    return \`https://api.whatsapp.com/send?phone=\${WHATSAPP_NUMERO}&text=\${encodeURIComponent(msg)}\`;
-  };
-
-  const atualizarLinksAcao = () => {
-    const digitado = input ? input.value.trim() : '';
-    const baseTexto = digitado || ultimaMensagemUsuario;
-    const textoFinal = baseTexto
-      ? (prefixoAtual ? \`\${prefixoAtual}\${baseTexto}\` : baseTexto)
-      : (prefixoAtual || WHATSAPP_MSG_PADRAO);
-    if (linkWhatsapp) {
-      linkWhatsapp.href = montarUrlWhatsapp(textoFinal);
-    }
-    if (linkCatalogo) {
-      linkCatalogo.href = baseTexto
-        ? \`\${raiz}lista-de-produtos-e-precos/?q=\${encodeURIComponent(baseTexto)}\`
-        : \`\${raiz}lista-de-produtos-e-precos/\`;
-    }
-  };
-
-  const adicionarMensagem = (texto, tipo) => {
-    if (!mensagensEl) return;
-    const div = document.createElement('div');
-    div.className = \`chat-msg chat-msg--\${tipo}\`;
-    const p = document.createElement('p');
-    p.textContent = texto;
-    div.appendChild(p);
-    mensagensEl.appendChild(div);
-    mensagensEl.scrollTop = mensagensEl.scrollHeight;
-  };
-
-  const alternarChat = (abrir) => {
-    if (!painel || !btnAbrir) return;
-    const vaiAbrir = typeof abrir === 'boolean' ? abrir : painel.hidden;
-    painel.hidden = !vaiAbrir;
-    btnAbrir.setAttribute('aria-expanded', String(vaiAbrir));
-    btnAbrir.classList.toggle('is-ativo', vaiAbrir);
-    if (vaiAbrir) {
-      if (badge) badge.hidden = true;
-      setTimeout(() => input?.focus(), 50);
-    } else {
-      btnAbrir.focus();
-    }
-  };
-
-  btnAbrir?.addEventListener('click', () => alternarChat());
-  btnFechar?.addEventListener('click', () => alternarChat(false));
-
-  opcoesEl?.addEventListener('click', (e) => {
-    const btn = e.target.closest('.chat-opcao-btn');
-    if (!btn) return;
-    const idx = Number(btn.dataset.indice);
-    const op = OPCOES_RAPIDAS[idx];
-    if (!op) return;
-    adicionarMensagem(op.rotulo, 'usuario');
-    adicionarMensagem(op.resposta, 'bot');
-    prefixoAtual = op.prefill || '';
-    atualizarLinksAcao();
-    input?.focus();
-  });
-
-  input?.addEventListener('input', atualizarLinksAcao);
-
-  form?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const texto = input ? input.value.trim() : '';
-    if (!texto) {
-      input?.focus();
-      return;
-    }
-    ultimaMensagemUsuario = texto;
-    adicionarMensagem(texto, 'usuario');
-    input.value = '';
-    atualizarLinksAcao();
-    adicionarMensagem(
-      \`Recebemos sua solicitação sobre "\${texto}". Clique em "Continuar no WhatsApp" abaixo para atendimento imediato com nossa equipe ou consulte na tabela de preços.\`,
-      'bot'
-    );
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && painel && !painel.hidden) {
-      alternarChat(false);
-    }
-  });
-
-  document.addEventListener('click', (e) => {
-    if (!painel || painel.hidden) return;
-    if (e.target.closest('#site-widgets')) return;
-    alternarChat(false);
-  });
 })();
 `;
 }

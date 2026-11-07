@@ -1,49 +1,5 @@
-    <div id="painel-chat" class="chat-painel" role="dialog" aria-modal="false" aria-labelledby="chat-titulo" hidden>
-      <div class="chat-painel__cabecalho">
-        <div class="chat-painel__info">
-          <span class="chat-painel__status-dot" aria-hidden="true"></span>
-          <div>
-            <h2 id="chat-titulo" class="chat-painel__titulo">{{chatTitulo}}</h2>
-            <p class="chat-painel__subtitulo">{{chatSubtitulo}}</p>
-          </div>
-        </div>
-        <button type="button" id="chat-fechar" class="chat-painel__fechar" aria-label="Fechar chat">
-          {{{iconeFechar}}}
-        </button>
-      </div>
-      <div id="chat-mensagens" class="chat-painel__corpo" aria-live="polite">
-        <div class="chat-msg chat-msg--bot">
-          <p>{{chatBoasVindas}}</p>
-        </div>
-        <div id="chat-opcoes" class="chat-opcoes" role="group" aria-label="Assuntos rápidos">
-{{{chatOpcoes}}}
-        </div>
-      </div>
-      <form id="chat-form" class="chat-painel__rodape" novalidate>
-        <div class="chat-painel__input-grupo">
-          <label for="chat-input" class="sr-only">{{chatPlaceholder}}</label>
-          <input type="text" id="chat-input" class="chat-painel__input" placeholder="{{chatPlaceholder}}" autocomplete="off">
-          <button type="submit" class="chat-painel__enviar" aria-label="Enviar mensagem no chat">
-            {{{iconeEnviar}}}
-          </button>
-        </div>
-        <div class="chat-painel__acoes">
-          <a id="chat-ir-whatsapp" class="btn btn--whatsapp-chat" href="{{whatsappUrl}}" target="_blank" rel="noopener">
-            {{{iconeWhatsapp}}} <span>{{chatEnviarWhatsapp}}</span>
-          </a>
-          <a id="chat-ver-catalogo" class="chat-painel__link-catalogo" href="{{raiz}}lista-de-produtos-e-precos/">
-            {{chatVerCatalogo}}
-          </a>
-        </div>
-      </form>
-    </div>
     <div class="widgets-flutuantes">
-      <button type="button" id="btn-abrir-chat" class="chat-flutuante" aria-expanded="false" aria-controls="painel-chat" aria-label="{{chatBotaoRotulo}}">
-        {{{iconeChat}}}
-        <span class="chat-flutuante__badge" aria-hidden="true"></span>
-      </button>
       <a class="whatsapp-flutuante" href="{{whatsappUrl}}" target="_blank" rel="noopener" aria-label="{{whatsappRotulo}}">
         {{{iconeWhatsapp}}}
       </a>
     </div>
-

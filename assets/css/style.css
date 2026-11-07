@@ -343,275 +343,44 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: #B3261
 .rodape__aviso { margin-top: 32px; padding-top: 16px; border-top: 1px solid rgba(255, 255, 255, .25); font-size: 14px; line-height: 22px; }
 .rodape__copy { margin: 0; font-size: 14px; }
 
-/* ---------- Widgets flutuantes (Chat + WhatsApp) ---------- */
-.widgets-flutuantes {
+/* ---------- WhatsApp flutuante ---------- */
+.whatsapp-flutuante {
   position: fixed;
   right: 16px;
-  bottom: 16px;
+  bottom: 84px;
   z-index: 60;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-}
-.whatsapp-flutuante,
-.chat-flutuante {
   display: grid;
   place-items: center;
   width: 52px;
   height: 52px;
   color: #fff;
+  background: var(--cor-whatsapp);
   border: none;
   border-radius: 50%;
-  cursor: pointer;
+  text-decoration: none;
   box-shadow: 0 4px 14px rgba(0, 0, 0, .3);
   transition: transform .15s ease, background-color .15s ease;
 }
-.whatsapp-flutuante {
-  background: var(--cor-whatsapp);
-}
-.chat-flutuante {
-  position: relative;
-  background: var(--cor-primaria);
-}
-.chat-flutuante.is-ativo {
-  background: var(--cor-primaria-escura);
-}
-.whatsapp-flutuante:hover,
-.chat-flutuante:hover {
+.whatsapp-flutuante:hover {
   transform: scale(1.08);
+  background: color-mix(in srgb, var(--cor-whatsapp) 85%, #000);
 }
-.whatsapp-flutuante:focus-visible,
-.chat-flutuante:focus-visible {
+.whatsapp-flutuante:focus-visible {
   outline: 3px solid var(--cor-cta);
   outline-offset: 2px;
 }
-.whatsapp-flutuante .icone,
-.chat-flutuante .icone {
+.whatsapp-flutuante .icone {
   width: 26px;
   height: 26px;
 }
-.chat-flutuante__badge {
-  position: absolute;
-  top: 2px;
-  right: 2px;
-  width: 12px;
-  height: 12px;
-  background: var(--cor-cta);
-  border: 2px solid #fff;
-  border-radius: 50%;
-}
-
-/* Painel do Chat Rápido */
-.chat-painel {
-  position: fixed;
-  right: 16px;
-  bottom: 144px;
-  z-index: 65;
-  width: min(360px, calc(100vw - 32px));
-  max-height: min(520px, calc(100vh - 168px));
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  color: var(--cor-texto);
-  border: 1px solid var(--cor-borda);
-  border-radius: var(--raio-card);
-  box-shadow: var(--sombra-forte);
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.chat-painel[hidden] {
-  display: none !important;
-}
 
 @media (max-width: 600px) {
-  .chat-painel {
-    right: 8px;
-    left: 8px;
-    bottom: 84px;
-    width: auto;
-    max-height: calc(100dvh - 96px);
-    border-radius: 12px;
-  }
-  .widgets-flutuantes {
+  .whatsapp-flutuante {
     right: 12px;
-    bottom: 12px;
-    gap: 8px;
-  }
-  .whatsapp-flutuante,
-  .chat-flutuante {
+    bottom: 80px;
     width: 48px;
     height: 48px;
   }
-}
-.chat-painel__cabecalho {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 14px 16px;
-  background: var(--cor-primaria);
-  color: #fff;
-}
-.chat-painel__info {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.chat-painel__status-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #34D399;
-  box-shadow: 0 0 0 3px rgba(52, 211, 153, .25);
-  flex-shrink: 0;
-}
-.chat-painel__titulo {
-  margin: 0;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fff;
-}
-.chat-painel__subtitulo {
-  margin: 2px 0 0;
-  font-size: 12px;
-  line-height: 16px;
-  color: rgba(255, 255, 255, .82);
-}
-.chat-painel__fechar {
-  display: grid;
-  place-items: center;
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  background: rgba(255, 255, 255, .12);
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-.chat-painel__fechar:hover {
-  background: rgba(255, 255, 255, .24);
-}
-.chat-painel__fechar .icone {
-  width: 18px;
-  height: 18px;
-}
-.chat-painel__corpo {
-  flex: 1;
-  padding: 14px 16px;
-  overflow-y: auto;
-  background: var(--cor-fundo-suave);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.chat-msg {
-  max-width: 88%;
-  padding: 10px 12px;
-  font-size: 14px;
-  line-height: 20px;
-  border-radius: 10px;
-}
-.chat-msg p {
-  margin: 0;
-}
-.chat-msg--bot {
-  align-self: flex-start;
-  background: #fff;
-  color: var(--cor-texto);
-  border: 1px solid var(--cor-borda);
-  border-top-left-radius: 2px;
-}
-.chat-msg--usuario {
-  align-self: flex-end;
-  background: var(--cor-primaria);
-  color: #fff;
-  border-top-right-radius: 2px;
-}
-.chat-opcoes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 2px;
-}
-.chat-opcao-btn {
-  padding: 6px 10px;
-  font: 600 12px/16px var(--fonte);
-  color: var(--cor-primaria);
-  background: #fff;
-  border: 1px solid var(--cor-primaria);
-  border-radius: 999px;
-  cursor: pointer;
-  transition: background-color .15s ease, color .15s ease;
-}
-.chat-opcao-btn:hover {
-  background: var(--cor-primaria);
-  color: #fff;
-}
-.chat-painel__rodape {
-  padding: 12px;
-  background: #fff;
-  border-top: 1px solid var(--cor-borda);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.chat-painel__input-grupo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.chat-painel__input {
-  flex: 1;
-  min-height: 40px;
-  padding: 8px 12px;
-  font-size: 14px;
-  border: 1px solid var(--cor-borda);
-  border-radius: var(--raio-botao);
-}
-.chat-painel__enviar {
-  display: grid;
-  place-items: center;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  background: var(--cor-primaria);
-  color: #fff;
-  border: none;
-  border-radius: var(--raio-botao);
-  cursor: pointer;
-  flex-shrink: 0;
-}
-.chat-painel__enviar:hover {
-  background: var(--cor-primaria-escura);
-}
-.chat-painel__enviar .icone {
-  width: 18px;
-  height: 18px;
-}
-.chat-painel__acoes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-}
-.btn--whatsapp-chat {
-  width: 100%;
-  min-height: 40px;
-  padding: 8px 14px;
-  font-size: 14px;
-  color: #fff;
-  background: var(--cor-whatsapp);
-  border-radius: var(--raio-botao);
-}
-.btn--whatsapp-chat:hover {
-  background: color-mix(in srgb, var(--cor-whatsapp) 86%, #000);
-}
-.chat-painel__link-catalogo {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--cor-primaria);
 }
 
 /* ---------- Pendências (somente revisão) ---------- */
